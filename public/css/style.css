@@ -7,7 +7,7 @@
 }
 
 .ff-secondary {
-    font-family: 'Verdana';
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .fw-medium {
@@ -53,12 +53,12 @@ label {
 }
 
 /* Home */
-home-text {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+#home-text{
+    font-family: Bower,Georgia,Times New Roman,serif;
 }
 
 #font-tnr{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-family: Bower,Georgia,Times New Roman,serif; 
     font-size: 1.6rem;
 }
 
@@ -86,7 +86,7 @@ h5,h6 {
     border-radius: 15px;
     margin: 1%;
     padding: 8%;
-    margin-bottom: 27%;
+    margin-bottom: 30%;
 }
 
 #card {
@@ -101,6 +101,7 @@ h5,h6 {
     background-color: #00666680;
     border-radius: 15px;
     margin-bottom: 2px;
+    border: #fff 4px solid;
     padding: 3%;
     color: #fff;
 }
@@ -117,6 +118,7 @@ h5,h6 {
     background-color: #203864c9;
     border-radius: 15px;
     margin-bottom: 2px;
+    border: #fff 4px solid;
     padding: 3%;
     height: 100%;
     color: #fff;
@@ -231,7 +233,7 @@ h5,h6 {
 }
 
 .link:hover {
-    color: #FFF;
+    color: #A1011F;
 }
 
 .btn.btn-primary,
