@@ -41,15 +41,33 @@
 }
 
 /* Select - Dropdown */
-select{
+select {
     background-color: #bad9fd;
     border: #ddebfc 5px solid;
     border-radius: 10px;
     padding: 10px 10px 10px;
 }
 
-label{
+label {
     color: #000;
+}
+
+/* Home */
+home-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#font-tnr{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 1.6rem;
+}
+
+#bold-text{
+    font-weight: bold;
+}
+
+h3{
+    font-weight: bolder;
 }
 
 /* Resumen */
@@ -68,6 +86,7 @@ h5,h6 {
     border-radius: 15px;
     margin: 1%;
     padding: 8%;
+    margin-bottom: 27%;
 }
 
 #card {
@@ -90,7 +109,7 @@ h5,h6 {
     background-color: #203864c9;
     border-radius: 15px;
     margin-bottom: 2px;
-    padding: 3%;
+    padding: 9%;
     color: #fff;
 }
 
@@ -110,59 +129,44 @@ h5,h6 {
     color: #fff;
 }
 
-#img-pt-a {
-    background-color: #008080;
-    border-radius: 100px;
-    display: flex;
-    align-items: center;
-}
-
-#img-pt-c {
-    background-color: #F5E132;
-    border-radius: 100px;
-    display: flex;
-    align-items: center;
-}
-
-#img-pt-l {
-    background-color: #BF0000;
-    border-radius: 100px;
-    display: flex;
-    align-items: center;
-}
-
-#img-pt-m {
-    background-color: #6FA457;
-    border-radius: 100px;
-    display: flex;
-    align-items: center;
-}
-
-#img-pt-t {
-    background-color: #F5895A;
-    border-radius: 100px;
-    display: flex;
-    align-items: center;
-}
-
 #bg-pt-a {
     background-color: #008080;
+    padding: 2%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
 }
 
 #bg-pt-c {
     background-color: #F5E132;
+    padding: 2%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
 }
 
 #bg-pt-l {
     background-color: #BF0000;
+    padding: 2%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
 }
 
 #bg-pt-m {
     background-color: #6FA457;
+    padding: 2%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
 }
 
 #bg-pt-t {
     background-color: #F5895A;
+    padding: 2%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -217,7 +221,7 @@ h5,h6 {
 }
 
 .link {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
     font-size: larger;
     transition: .5s;
@@ -551,7 +555,6 @@ h5,h6 {
 .team-item .btn {
     border-radius: 38px 38px 0 0;
 }
-
 
 /*** Testimonial ***/
 .testimonial-carousel .owl-item .testimonial-item,
