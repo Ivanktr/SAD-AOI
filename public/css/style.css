@@ -43,13 +43,29 @@
 /* Select - Dropdown */
 select {
     background-color: #bad9fd;
-    border: #ddebfc 5px solid;
+    border: #ddebfc 3px solid;
     border-radius: 10px;
-    padding: 10px 10px 10px;
+    padding: 7px 10px 7px;
 }
 
 label {
     color: #000;
+}
+/* Brechas */
+#brecha-tot{
+    background-color: #008080;
+    align-items: center;
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+#brecha-tot-v{
+    background-color: #DBEEF4;
+    align-items: center;
+    display: flex;
+    width: 100px;
+    height: 100px;
 }
 
 /* Home */
@@ -113,8 +129,7 @@ h5,h6 {
 #card3{
     background-color: #203864c9;
     border-radius: 15px;
-    border: #fff 1.5px solid;
-    margin-bottom: 2px;
+    border: #fff 1px solid;
     padding: 8%;
     color: #fff;
 }
@@ -181,7 +196,7 @@ h5,h6 {
 #map-rsm { 
     position:sticky;
     width:100%;
-    height:375px;
+    height:370px;
     border-radius: 15px;
     margin-bottom: 10px;
 }
