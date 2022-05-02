@@ -176,9 +176,9 @@ h5,h6 {
 #map-rsm { 
     position:sticky;
     width:100%;
-    height:360px;
+    height:375px;
     border-radius: 15px;
-    margin: 10px;
+    margin-bottom: 10px;
 }
 
 #map-proy { 
