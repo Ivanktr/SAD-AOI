@@ -68,6 +68,10 @@ label {
     height: 100px;
 }
 
+.black-text{
+    color: #000;
+}
+
 /* Home */
 #home-text{
     font-family: Bower,Georgia,Times New Roman,serif;
@@ -89,6 +93,11 @@ h3{
 /* Resumen */
 .text-center{
     text-align: center;
+}
+
+.img-pt{
+    width: auto;
+    height: 100%;
 }
 
 h5,h6 {
