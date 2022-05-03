@@ -72,6 +72,10 @@ label {
     color: #000;
 }
 
+#th-f{
+    width: 100%;
+}
+
 /* Home */
 #home-text{
     font-family: Bower,Georgia,Times New Roman,serif;
