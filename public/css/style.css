@@ -52,6 +52,173 @@ label {
     color: #000;
 }
 /* Brechas */
+.grid-container > * {
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    padding: 10%;
+    text-align: center;
+}
+
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+}
+
+.grid-1{
+    grid-area: 1 / span 3;
+    background-color: #fff;
+}
+
+.grid-2{
+    grid-area: 1 / span 3;
+    background-color: #fff;
+}
+
+.grid-3{
+    grid-area: 1 / span 1;
+    background-color: #fff;
+}
+
+.grid-4{
+    grid-area: 1 / span 3;
+    background-color: #fff;
+}
+
+.grid-5{
+    grid-row: 2 / span 2;
+    background-color: #fff;
+}
+
+.grid-6{
+    grid-row: 2 / span 2;
+    background-color: #fff;
+}
+
+.grid-7{
+    background-color: #fff;
+}
+
+.grid-8{
+    background-color: #fff;
+}
+
+.grid-9{
+    grid-column: 5 / span 3;
+    background-color: #fff;
+}
+
+.grid-10{
+    grid-column: 8 / span 3;
+    grid-row: 2 / span 4;
+    background-color: #fff;
+}
+
+.grid-11{
+    grid-column: 3 / span 1;
+    background-color: #fff;
+}
+
+.grid-12{
+    background-color: #fff;
+}
+
+.grid-13{
+    background-color: #fff;
+}
+
+.grid-14{
+    background-color: #fff;
+}
+
+.grid-15{
+    background-color: #fff;
+}
+
+.grid-16{
+    grid-row: 4 / span 2;
+    background-color: #fff;
+}
+
+.grid-17{
+    background-color: #fff;
+}
+
+.grid-18{
+    grid-column: 3 / span 2;
+    background-color: #fff;
+}
+
+.grid-19{
+    background-color: #fff;
+}
+
+.grid-20{
+    background-color: #fff;
+}
+
+.grid-21{
+    background-color: #fff;
+}
+
+.grid-22{
+    background-color: #fff;
+}
+
+.grid-23{
+    grid-column: 3 / span 2;
+    background-color: #fff;
+}
+
+.grid-24{
+    background-color: #fff;
+}
+
+.grid-25{
+    background-color: #fff;
+}
+
+.grid-26{
+    background-color: #fff;
+}
+
+.grid-27{
+    background-color: #fff;
+}
+
+.grid-28{
+    background-color: #fff;
+}
+
+.grid-29{
+    grid-column: 3 / span 2;
+    background-color: #fff;
+}
+
+.grid-30{
+    background-color: #fff;
+}
+
+.grid-31{
+    background-color: #fff;
+}
+
+.grid-32{
+    background-color: #fff;
+}
+
+.grid-33{
+    background-color: #fff;
+}
+
+.grid-34{
+    background-color: #fff;
+}
+
+.grid-35{
+    background-color: #fff;
+}
+
 #brecha-tot{
     background-color: #008080;
     align-items: center;
