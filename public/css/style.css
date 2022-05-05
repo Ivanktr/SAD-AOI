@@ -41,21 +41,43 @@
 }
 
 /* Select - Dropdown */
-select {
+#select {
     background-color: #bad9fd;
     border: #ddebfc 3px solid;
     border-radius: 10px;
     padding: 7px 10px 7px;
 }
 
-label {
+#select2{
+    background-color: #bad9fd;
+    border-radius: 10px;
+    border: #bad9fd 3px solid;
+    padding: 5px 10px 5px;
+}
+
+#label {
     color: #000;
 }
+
+#label2{
+    color: #000;
+    width: 100%;
+}
+
+#filter {
+    background-color: #bad9fd81;
+    border-radius: 15px;
+    margin: 1%;
+    padding: 8%;
+    margin-bottom: 30%;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
 /* Brechas */
 .grid-container > * {
     box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
-    padding: 10%;
+    padding: 5%;
     text-align: center;
 }
 
@@ -66,23 +88,26 @@ label {
 }
 
 .grid-1{
-    grid-area: 1 / span 3;
+    grid-column: 1 / span 3;
     background-color: #fff;
+    min-width: 480px;
 }
 
 .grid-2{
-    grid-area: 1 / span 3;
+    grid-column: 4 / span 3;
     background-color: #fff;
 }
 
 .grid-3{
-    grid-area: 1 / span 1;
+    min-width: 300px;
     background-color: #fff;
 }
 
 .grid-4{
-    grid-area: 1 / span 3;
+    grid-column: 8 / span 3;
+    grid-row: 1 / span 2;
     background-color: #fff;
+    max-width: 350px;
 }
 
 .grid-5{
@@ -110,12 +135,11 @@ label {
 
 .grid-10{
     grid-column: 8 / span 3;
-    grid-row: 2 / span 4;
+    grid-row: 3 / span 3;
     background-color: #fff;
 }
 
 .grid-11{
-    grid-column: 3 / span 1;
     background-color: #fff;
 }
 
@@ -281,20 +305,13 @@ h5,h6 {
     padding: 10px 100px 10px;
 }
 
-#filter {
-    background-color: #bad9fd81;
-    border-radius: 15px;
-    margin: 1%;
-    padding: 8%;
-    margin-bottom: 30%;
-}
-
 #card {
     background-color: #006666ce;
     border-radius: 15px;
     padding: 3%;
     margin-bottom: 3px;
     color: #fff;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
 }
 
 #card2 {
@@ -304,6 +321,7 @@ h5,h6 {
     border: #fff 1px solid;
     padding: 3%;
     color: #fff;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
 }
 
 #card3{
@@ -312,16 +330,18 @@ h5,h6 {
     border: #fff 1px solid;
     padding: 8%;
     color: #fff;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
 }
 
 #card4{
     background-color: #203864c9;
     border-radius: 15px;
     margin-bottom: 2px;
-    border: #fff 4px solid;
+    border: #fff 2px solid;
     padding: 6%;
     height: 100%;
     color: #fff;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
 }
 
 #card-pt {
@@ -329,6 +349,7 @@ h5,h6 {
     border-radius: 15px;
     padding: 10%;
     color: #fff;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
 }
 
 #bg-pt-a {
@@ -379,6 +400,7 @@ h5,h6 {
     height:370px;
     border-radius: 15px;
     margin-bottom: 10px;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
 }
 
 #map-proy { 

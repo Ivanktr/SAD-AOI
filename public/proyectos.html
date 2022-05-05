@@ -90,12 +90,13 @@
                         <h3>Proyectos para el cierre de brechas y puesta en valor las potencialidades</h3>
                         <p>(Descripción)</p>
                     </div>
+                    <!-- Filtros -->
                     <div class="row" id="proy-card">
                         <div class="row pt-3">
                             <div class="col-3">
                                 <div class="row">
-                                <label for="unit">Unidad territorial</label>
-                                    <select name="unit" id="ut">
+                                <label id="label" for="unit">Unidad territorial</label>
+                                    <select id="select" name="unit" id="ut">
                                         <option value="">AIO</option>
                                         <optgroup label="UGT Huallanca">
                                             <option value="">Aquia (Bolognesi / Áncash)</option>
@@ -117,8 +118,8 @@
                             </div>
                             <div class="col-2">
                                 <div class="row">
-                                    <label for="unit">Time frame</label>
-                                    <select name="unit" id="ut">
+                                    <label id="label" for="unit">Time frame</label>
+                                    <select id="select" name="unit" id="ut">
                                         <option value="">Todos</option>
                                         <option value="">First Engagement</option>
                                         <option value="">Medium Term</option>
@@ -128,8 +129,8 @@
                             </div>
                             <div class="col-2">
                                 <div class="row">
-                                    <label for="fac">Factores</label>
-                                    <select name="fac" id="fc">
+                                    <label id="label" for="fac">Factores</label>
+                                    <select id="select" name="fac" id="fc">
                                         <option value="">Todos</option>
                                         <option value="">Educación</option>
                                         <option value="">Institucionalidad</option>
@@ -141,8 +142,8 @@
                             </div>
                             <div class="col-3">
                                 <div class="row">
-                                    <label for="mod">Modalidad de inversión</label>
-                                    <select name="mod" id="md">
+                                    <label id="label" for="mod">Modalidad de inversión</label>
+                                    <select id="select" name="mod" id="md">
                                         <option value="">Todas</option>
                                         <option value="">Inversión Pública (GL/GR/GN)</option>
                                         <option value="">Inversión Social Directa Antamina: Proyectos Sociales</option>
@@ -152,8 +153,8 @@
                             </div>
                             <div class="col-2">
                                 <div class="row">
-                                    <label for="unit">Año</label>
-                                    <select name="unit" id="ut">
+                                    <label id="label" for="unit">Año</label>
+                                    <select id="select" name="unit" id="ut">
                                         <option value="">2021</option>
                                         <option value="">2022</option>
                                         <option value="">2023</option>
@@ -164,9 +165,11 @@
                             </div>
                         </div>
                         <div class="row mt-4 mb-3">
+                            <!-- Mapa -->
                             <div class="row" id="row-map">
                                 <div id="map-proy"></div>
                             </div>
+                            <!-- Tarjetas de cantidad y monto -->
                             <div class="row" id="row-card">
                                 <div class="row" id="card-info">
                                     <h4 id="bold-text">837</h4>
