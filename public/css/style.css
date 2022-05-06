@@ -64,15 +64,6 @@
     width: 100%;
 }
 
-#filter {
-    background-color: #bad9fd81;
-    border-radius: 15px;
-    margin: 1%;
-    padding: 8%;
-    margin-bottom: 30%;
-    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
-}
-
 /* */
 ol li .aactiva{
     color: #A1011F;
@@ -838,6 +829,216 @@ h3{
 }
 
 /* Resumen */
+.grid-rsm-container > * {
+    padding: 1%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-rsm-container{
+    padding-bottom: 10%;
+    display: grid;
+    gap: 7px;
+    grid-template-columns: 25% 23% 29% auto;
+    grid-template-rows: auto 10% 10% 10% 10% 10% 10% 14% 14%;
+}
+
+.grid-rsm-1{
+    grid-column: 1 / span 1;
+}
+
+.grid-rsm-2{
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 1;
+}
+
+.grid-rsm-3{
+    grid-column: 4 / span 1;
+}
+
+.grid-rsm-4{
+    border-radius: 15px;
+    background-color: #006666ce;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75); 
+}
+
+.grid-rsm-4 .col-9{
+    margin-left: 20px;
+    text-align: left;
+}
+
+.grid-rsm-4 .col-9 h7{
+    line-height: 100%;
+    color: #fff;
+}
+
+.grid-rsm-5{
+    grid-column: 1 / span 1;
+    border-radius: 15px;
+    background-color: #006666ce;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75); 
+}
+
+.grid-rsm-5 .col-9{
+    margin-left: 20px;
+    text-align: left;
+}
+
+.grid-rsm-6{
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 3;
+    border-radius: 15px;
+    background-color: #00666680;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75); 
+}
+
+.grid-rsm-6 .col-9{
+    padding-left: 15px;
+    text-align: left;
+}
+
+.grid-rsm-6 p{
+    color: #fff;
+}
+
+.grid-rsm-7{
+    border-radius: 15px;
+    background-color: #00666680;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75); 
+}
+
+.grid-rsm-7 .col-8{
+    padding-left: 15px;
+    text-align: left;
+}
+
+.grid-rsm-8{
+    grid-column: 2 / span 2;
+    grid-row: 2 / span 6;
+}
+
+.grid-rsm-9{
+    grid-column: 4 / span 1;
+    grid-row: 2 / span 3;
+    background-color: #bad9fd81;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 15px;
+}
+
+.grid-rsm-9 .row{
+    padding: 7%;
+}
+
+.grid-rsm-10{
+    grid-column: 4 / span 1;
+    grid-row: 5 / span 1;
+}
+
+.grid-rsm-11{
+    grid-column: 4 / span 1;
+    grid-row: 6 / span 5;
+    background-color: #00666680;
+    padding: 7%;
+    border-radius: 15px;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+.grid-rsm-11 td{
+    color: #fff;
+}
+
+.grid-rsm-12{
+    grid-column: 1 / span 1;
+    grid-row: 8 / span 2;
+    background-color: #203864c9;
+    border-radius: 15px;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75); 
+}
+
+.grid-rsm-12 th h5{
+    text-align: left;
+}
+
+.grid-rsm-12 .txt{
+    color: #fff;
+    text-align: center;
+}
+
+.grid-rsm-12 th h6{
+    padding: 3px;
+    text-align: center;
+}
+
+.grid-rsm-12 td{
+    text-align: left;
+    color: #fff;
+}
+
+.grid-rsm-13{
+    grid-column: 2 / span 1;
+    grid-row: 8 / span 2;
+    background-color: #203864c9;
+    border-radius: 15px;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75); 
+}
+
+.grid-rsm-13 th{
+    text-align: left;
+}
+
+.grid-rsm-13 h6{
+    padding: 5px;
+}
+
+.grid-rsm-13 td{
+    text-align: left;
+    color: #fff;
+}
+
+.grid-rsm-14{
+    grid-column: 3 / span 1;
+    grid-row: 8 / span 1;
+    background-color: #00666680;
+    border-radius: 15px;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75); 
+}
+
+.grid-rsm-14 td{
+    color: #fff;
+}
+
+.grid-rsm-14 table{
+    width: 100%;
+}
+
+.grid-rsm-14 h5{
+    padding-left: 10px;
+    text-align: left;
+}
+
+.grid-rsm-15{
+    grid-column: 3 / span 1;
+    grid-row: 9 / span 1;
+    background-color: #00666680;
+    border-radius: 15px;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75); 
+}
+
+.grid-rsm-15 td{
+    color: #fff;
+}
+
+.grid-rsm-15 table{
+    width: 100%;
+}
+
+.grid-rsm-15 h5{
+    padding-left: 10px;
+    text-align: left;
+}
+
 .text-center{
     text-align: center;
 }
@@ -946,12 +1147,11 @@ h5,h6 {
 
 
 /* Map */
-#map-rsm { 
-    position:sticky;
+#map-rsm {
+    position:relative;
     width:100%;
-    height:370px;
+    height:100%;
     border-radius: 15px;
-    margin-bottom: 10px;
     box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
 }
 
