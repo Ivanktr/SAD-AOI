@@ -960,6 +960,7 @@ h5,h6 {
 /* Cards */
 #proy-card {
     border-radius: 15px;
+    box-shadow: -1px 1px 7px 0px rgb(0 0 0 / 0.75);
     background-color:#bad9fd85
 }
 
