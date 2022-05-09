@@ -869,8 +869,13 @@ h3{
     text-align: left;
 }
 
-.grid-rsm-4 .col-9 h7{
-    line-height: 100%;
+.grid-rsm-4 h4{
+    margin-bottom: 0px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.grid-rsm-4 .col-9 small{
     color: #fff;
 }
 
@@ -886,6 +891,16 @@ h3{
     text-align: left;
 }
 
+.grid-rsm-5 h4{
+    margin-bottom: 0px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.grid-rsm-5 small{
+    color: #fff;
+}
+
 .grid-rsm-6{
     grid-column: 1 / span 1;
     grid-row: 4 / span 3;
@@ -897,6 +912,31 @@ h3{
 .grid-rsm-6 .col-9{
     padding-left: 15px;
     text-align: left;
+}
+
+.grid-rsm-6 table{
+    align-items: center;
+    height: 90%;
+    width: 90%;
+}
+
+.grid-rsm-6 th{
+    text-align: left;
+    font-weight: normal;
+}
+
+.grid-rsm-6 small{
+    color: #fff;
+}
+
+.grid-rsm-6 h5{
+    font-size: x-large;
+}
+
+.grid-rsm-6 h4{
+    margin-bottom: 0px;
+    color: #fff;
+    font-weight: bold;
 }
 
 .grid-rsm-6 p{
@@ -912,6 +952,16 @@ h3{
 .grid-rsm-7 .col-8{
     padding-left: 15px;
     text-align: left;
+}
+
+.grid-rsm-7 h4{
+    margin-bottom: 0px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.grid-rsm-7 small{
+    color: #fff;
 }
 
 .grid-rsm-8{
@@ -962,7 +1012,7 @@ h3{
     width: 90%;
 }
 
-.grid-rsm-12 th h5{
+.grid-rsm-12 th{
     text-align: left;
 }
 
@@ -970,10 +1020,19 @@ h3{
     color: #fff;
     text-align: center;
 }
-
-.grid-rsm-12 th h6{
+.grid-rsm-12 h4{
+    color: #fff;
+    font-weight: bold;
+}
+.grid-rsm-12 td h6{
+    margin-bottom: -5px;
     padding: 3px;
     text-align: center;
+}
+
+.grid-rsm-12 td small{
+    font-size: small;
+    color: #fff;
 }
 
 .grid-rsm-12 td{
@@ -999,7 +1058,12 @@ h3{
 }
 
 .grid-rsm-13 h6{
-    padding: 5px;
+    margin-bottom: -5px;
+}
+
+.grid-rsm-13 small{
+    font-size: small;
+    color: #fff;
 }
 
 .grid-rsm-13 td{
@@ -1023,9 +1087,19 @@ h3{
     width: 100%;
 }
 
+.grid-rsm-14 th{
+    text-align: left;
+}
+
 .grid-rsm-14 h5{
     padding-left: 10px;
     text-align: left;
+}
+
+.grid-rsm-14 small{
+    padding-left: 10px;
+    color: #fff;
+    font-weight: normal;
 }
 
 .grid-rsm-15{
@@ -1044,9 +1118,24 @@ h3{
     width: 100%;
 }
 
+.grid-rsm-15 th{
+    text-align: left;
+}
+
 .grid-rsm-15 h5{
     padding-left: 10px;
     text-align: left;
+}
+
+.grid-rsm-15 h5{
+    padding-left: 10px;
+    text-align: left;
+}
+
+.grid-rsm-15 small{
+    padding-left: 10px;
+    color: #fff;
+    font-weight: normal;
 }
 
 .text-center{
