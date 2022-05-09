@@ -957,6 +957,11 @@ h3{
     box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75); 
 }
 
+.grid-rsm-12 table{
+    height: 90%;   
+    width: 90%;
+}
+
 .grid-rsm-12 th h5{
     text-align: left;
 }
@@ -982,6 +987,11 @@ h3{
     background-color: #203864c9;
     border-radius: 15px;
     box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75); 
+}
+
+.grid-rsm-13 table{
+    height: 80%;
+    width: 90%;
 }
 
 .grid-rsm-13 th{
@@ -1307,7 +1317,7 @@ h5,h6 {
     
     .sticky-top.navbar-dark {
         position: fixed;
-        background: var(--dark) !important;
+        background: rgba(0, 0, 0, .3) !important;
     }
 }
 
