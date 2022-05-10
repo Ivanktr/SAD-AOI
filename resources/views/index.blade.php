@@ -45,21 +45,20 @@
         <!-- Navbar & Hero Start -->
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
-                <a href="" class="navbar-brand p-0">
-                    <p class="m-4" id="font-tnr"><img class="img-fluid" src="img/logo-ccd-w.png"></img> SAD AIO Antamina</p>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                <a href="/" class="navbar-brand p-0">
+                    <p class="m-4" id="font-tnr"><img class="img-fluid" src="img/logo-ccd-w.png"> SAD AIO Antamina</p>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-4">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="resumen.html" class="nav-item nav-link">Resumen</a>
-                        <a href="brechas.html" class="nav-item nav-link">Brechas</a>
-                        <a href="proyectos.html" class="nav-item nav-link">Proyectos</a>
-                        <a href="recursos.html" class="nav-item nav-link">Recursos</a>
-                        <a href="potencialidades.html" class="nav-item nav-link">Potencialidades</a>
+                        <a href="/" class="nav-item nav-link active">Home</a>
+                        <a href="/resumen" class="nav-item nav-link">Resumen</a>
+                        <a href="/brechas" class="nav-item nav-link">Brechas</a>
+                        <a href="/proyectos" class="nav-item nav-link">Proyectos</a>
+                        <a href="/recursos" class="nav-item nav-link">Recursos</a>
+                        <a href="/potencialidades" class="nav-item nav-link">Potencialidades</a>
                     </div>
                 </div>
             </nav>
@@ -70,7 +69,7 @@
                         <div class="col-lg-6 text-center text-lg-start">
                             <p class="display-3 animated slideInLeft text-white" id="home-text">Dales calidad, <br>es el mejor tipo de publicidad</p>
                             <p class="text-white animated slideInLeft mb-4 pb-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda saepe vero qui totam repellat distinctio autem fuga ipsam architecto cum omnis consectetur, ea mollitia earum, ut vitae quasi illo explicabo.</p>
-                            <a href="resumen.html" class="link me-3 animated slideInLeft"><strong>SAD AIO Antamina</strong><img src="img/arrow.svg" alt="Resumen" class="img-fluid ms-2"></a>
+                            <a href="/resumen" class="link me-3 animated slideInLeft"><strong>SAD AIO Antamina</strong><img src="img/arrow.svg" alt="Resumen" class="img-fluid ms-2"></a>
                         </div>
                         <div class="col-lg-6 text-center text-lg-end overflow-hidden">
                             <img class="img-fluid" src="img/home.png" alt="">

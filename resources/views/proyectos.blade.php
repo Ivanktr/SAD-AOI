@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Potencialidades</title>
+    <title>Proyectos</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -34,12 +34,6 @@
     <!-- Mapa -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/> 
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
-    <style type="text/css">
-        #map { position:sticky;width:100%;height: 100%; border-radius: 15px;}
-        .select{
-            width: 100%;
-        }
-    </style>
 </head>
 
 <body>
@@ -55,32 +49,31 @@
         <!-- Navbar & Hero Start -->
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
-                <a href="index.html" class="navbar-brand p-0">
-                    <p class=" m-4" id="font-tnr"><img class="img-fluid" src="img/logo-ccd-w.png"></img> SAD AIO Antamina</p>
+                <a href="/" class="navbar-brand p-0">
+                    <p class=" m-4" id="font-tnr"><img class="img-fluid" src="img/logo-ccd-w.png"> SAD AIO Antamina</p>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-4">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="resumen.html" class="nav-item nav-link">Resumen</a>
-                        <a href="brechas.html" class="nav-item nav-link">Brechas</a>
-                        <a href="proyectos.html" class="nav-item nav-link">Proyectos</a>
-                        <a href="recursos.html" class="nav-item nav-link">Recursos</a>
-                        <a href="potencialidades.html" class="nav-item nav-link active">Potencialidades</a>
+                        <a href="/" class="nav-item nav-link">Home</a>
+                        <a href="/resumen" class="nav-item nav-link">Resumen</a>
+                        <a href="/brechas" class="nav-item nav-link">Brechas</a>
+                        <a href="/proyectos" class="nav-item nav-link active">Proyectos</a>
+                        <a href="/recursos" class="nav-item nav-link">Recursos</a>
+                        <a href="/potencialidades" class="nav-item nav-link">Potencialidades</a>
                     </div>
-                    <!-- <a href="" class="btn btn-primary py-2 px-4">Ingresar</a> -->
                 </div>
             </nav>
 
             <div class="container-xxl py-5 bg-dark hero-header mb-5">
                 <div class="container text-center my-5 pt-5 pb-4">
-                    <h1 class="display-3 text-white mb-3 animated slideInDown">Potencialidades</h1>
+                    <h1 class="display-3 text-white mb-3 animated slideInDown">Proyectos</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center text-uppercase">
-                            <li class="breadcrumb-item"><a href="resumen.html" class="aactiva">Resumen</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Potencialidades</li>
+                            <li class="breadcrumb-item"><a href="/resumen" class="aactiva">Resumen</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Proyectos</li>
                         </ol>
                     </nav>
                 </div>
@@ -92,39 +85,102 @@
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="row g-5 align-items-center">
-                    <div class="row">
-                        <div class="col-8">
-                            <h3>Potencialidades</h3>
-                            <p>Cadenas productivas en Aquia (Bolognesi / Áncash)</p>
-                        </div>
-                        <div class="col-4">
-                            <label id="label" for="unit">Unidad territorial:</label>
-                            <select id="select" name="unit" id="ut">
-                                <option value="">AIO</option>
-                                <optgroup label="UGT Huallanca">
-                                    <option value="">Aquia (Bolognesi / Áncash)</option>
-                                    <option value="">Chiquián (Bolognesi / Áncash)</option>
-                                </optgroup>
-                                <optgroup label="UGT Huarmey">
-                                    <option value="">Huarmey (Huarmey / Áncash)</option>
-                                </optgroup>
-                                <optgroup label="UGT Mina / San Marcos">
-                                    <option value="">Chavín de Huántar (Huari / Áncash)</option>
-                                    <option value="">Huachis (Huari / Áncash)</option>
-                                </optgroup>
-                                <optgroup label="UGT Valle Fortaleza">
-                                    <option value="">Antonio Raymondi (Bolognesi / Áncash)</option>
-                                    <option value="">Cajacay (Bolognesi / Áncash)</option>
-                                </optgroup>
-                            </select>
-                        </div>
+                    <div class="row text-center">
+                        <h3>Proyectos para el cierre de brechas y puesta en valor las potencialidades</h3>
+                        <p>(Descripción)</p>
                     </div>
-                    <div class="row">
-                        <div class="col-5 mb-2">
-                            <img src="img/Cadenas.png" alt="" class="img-fluid">
+                    <!-- Filtros -->
+                    <div class="row" id="proy-card">
+                        <div class="row pt-3">
+                            <div class="col-3">
+                                <div class="row">
+                                <label id="label" for="unit">Unidad territorial</label>
+                                    <select id="select" name="unit" id="ut">
+                                        <option value="">AIO</option>
+                                        <optgroup label="UGT Huallanca">
+                                            <option value="">Aquia (Bolognesi / Áncash)</option>
+                                            <option value="">Chiquián (Bolognesi / Áncash)</option>
+                                        </optgroup>
+                                        <optgroup label="UGT Huarmey">
+                                            <option value="">Huarmey (Huarmey / Áncash)</option>
+                                        </optgroup>
+                                        <optgroup label="UGT Mina / San Marcos">
+                                            <option value="">Chavín de Huántar (Huari / Áncash)</option>
+                                            <option value="">Huachis (Huari / Áncash)</option>
+                                        </optgroup>
+                                        <optgroup label="UGT Valle Fortaleza">
+                                            <option value="">Antonio Raymondi (Bolognesi / Áncash)</option>
+                                            <option value="">Cajacay (Bolognesi / Áncash)</option>
+                                        </optgroup>
+                                    </select>
+                                </div> 
+                            </div>
+                            <div class="col-2">
+                                <div class="row">
+                                    <label id="label" for="unit">Time frame</label>
+                                    <select id="select" name="unit" id="ut">
+                                        <option value="">Todos</option>
+                                        <option value="">First Engagement</option>
+                                        <option value="">Short Term</option>
+                                        <option value="">Medium Term</option>
+                                        <option value="">Long Term</option>
+                                    </select>
+                                </div> 
+                            </div>
+                            <div class="col-2">
+                                <div class="row">
+                                    <label id="label" for="fac">Factores</label>
+                                    <select id="select" name="fac" id="fc">
+                                        <option value="">Todos</option>
+                                        <option value="">Educación</option>
+                                        <option value="">Institucionalidad</option>
+                                        <option value="">Nivel de vida digno (ingresos)</option>
+                                        <option value="">Nivel de vida digno (servicios básicos)</option>
+                                        <option value="">Salud</option>
+                                    </select>
+                                </div> 
+                            </div>
+                            <div class="col-3">
+                                <div class="row">
+                                    <label id="label" for="mod">Modalidad de inversión</label>
+                                    <select id="select" name="mod" id="md">
+                                        <option value="">Todas</option>
+                                        <option value="">Inversión Pública (GL/GR/GN)</option>
+                                        <option value="">Inversión Social Directa Antamina: Proyectos Sociales</option>
+                                        <option value="">Inversión Social Gestión Pública y Privada</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="row">
+                                    <label id="label" for="unit">Año</label>
+                                    <select id="select" name="unit" id="ut">
+                                        <option value="">2021</option>
+                                        <option value="">2022</option>
+                                        <option value="">2023</option>
+                                        <option value="">2024</option>
+                                        <option value="">2025</option>
+                                    </select>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-7 mb-2">
-                            <div id="map"></div>
+                        <div class="row mt-4 mb-3">
+                            <!-- Mapa -->
+                            <div class="row" id="row-map">
+                                <div id="map-proy"></div>
+                            </div>
+                            <!-- Tarjetas de cantidad y monto -->
+                            <div class="row" id="row-card">
+                                <div class="row" id="card-info">
+                                    <h2>837</h2>
+                                    <p>Cantidad de proyectos</p>
+                                </div>
+                                <div class="row mt-1" id="card-info">
+                                    <h2>1,369</h2>
+                                    <p>Monto actualizado</p>
+                                    <small>(S/ millones)</small>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -191,16 +247,16 @@
 
     <!-- Script Map -->
     <script type="text/javascript">
-        var map = L.map('map').setView([-10.0744, -77.1447], 16);
+        var map = L.map('map-proy').setView([-10.67668, -77.8162], 13);
 
         L.tileLayer('https://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}', {
             maxZoom: 20,
             subdomains:['mt0','mt1','mt2','mt3']
         }).addTo(map);
 
-        L.marker([-10.0744, -77.1447])
+        L.marker([-10.67668, -77.8162])
             .addTo(map)
-            .bindPopup('<p><b>Distrito: </b> Aquia <br/> <b>Monto actualizado (S/ millones): </b>22.61</p>');
+            .bindPopup('<p><b>Distrito: </b> Antonio Raymondi <br/> <b>Monto actualizado (S/ millones): </b>22.61</p>');
         L.marker([-10.1147, -77.3981])
             .addTo(map)
             .bindPopup('<p><b>Distrito: </b> Chavín de Huántar <br/> <b>Monto actualizado (S/ millones): </b>63.68</p>');

@@ -35,16 +35,6 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/> 
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script>
-    <style type="text/css">
-        #map { position:sticky;width:100%;height:200px;}
-        .select{
-            width: 100%;
-        }
-        #chart-container {
-            width: 100%;
-            height: auto;
-        }
-    </style>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/Chart.min.js"></script>
 </head>
@@ -62,21 +52,20 @@
         <!-- Navbar & Hero Start -->
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
-                <a href="index.html" class="navbar-brand p-0">
-                    <p class=" m-4" id="font-tnr"><img class="img-fluid" src="img/logo-ccd-w.png"></img> SAD AIO Antamina</p>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                <a href="/" class="navbar-brand p-0">
+                    <p class=" m-4" id="font-tnr"><img class="img-fluid" src="img/logo-ccd-w.png"> SAD AIO Antamina</p>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-4">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="resumen.html" class="nav-item nav-link">Resumen</a>
-                        <a href="brechas.html" class="nav-item nav-link">Brechas</a>
-                        <a href="proyectos.html" class="nav-item nav-link">Proyectos</a>
-                        <a href="recursos.html" class="nav-item nav-link active">Recursos</a>
-                        <a href="potencialidades.html" class="nav-item nav-link">Potencialidades</a>
+                        <a href="/" class="nav-item nav-link">Home</a>
+                        <a href="/resumen" class="nav-item nav-link">Resumen</a>
+                        <a href="/brechas" class="nav-item nav-link">Brechas</a>
+                        <a href="/proyectos" class="nav-item nav-link">Proyectos</a>
+                        <a href="/recursos" class="nav-item nav-link active">Recursos</a>
+                        <a href="/potencialidades" class="nav-item nav-link">Potencialidades</a>
                     </div>
                 </div>
             </nav>
@@ -86,7 +75,7 @@
                     <h1 class="display-3 text-white mb-3 animated slideInDown">Recursos</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center text-uppercase">
-                            <li class="breadcrumb-item"><a href="resumen.html" class="aactiva">Resumen</a></li>
+                            <li class="breadcrumb-item"><a href="/resumen" class="aactiva">Resumen</a></li>
                             <li class="breadcrumb-item text-white active" aria-current="page">Recursos</li>
                         </ol>
                     </nav>

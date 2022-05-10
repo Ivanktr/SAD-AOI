@@ -48,8 +48,8 @@
         <!-- Navbar & Hero Start -->
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
-                <a href="index.html" class="navbar-brand p-0">
-                    <p class=" m-4" id="font-tnr"><img class="img-fluid" src="img/logo-ccd-w.png"></img> SAD AIO Antamina</p>
+                <a href="/" class="navbar-brand p-0">
+                    <p class=" m-4" id="font-tnr"><img class="img-fluid" src="img/logo-ccd-w.png"> SAD AIO Antamina</p>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -57,12 +57,12 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-4">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="resumen.html" class="nav-item nav-link active">Resumen</a>
-                        <a href="brechas.html" class="nav-item nav-link">Brechas</a>
-                        <a href="proyectos.html" class="nav-item nav-link">Proyectos</a>
-                        <a href="recursos.html" class="nav-item nav-link">Recursos</a>
-                        <a href="potencialidades.html" class="nav-item nav-link">Potencialidades</a>
+                        <a href="/" class="nav-item nav-link">Home</a>
+                        <a href="/resumen" class="nav-item nav-link active">Resumen</a>
+                        <a href="/brechas" class="nav-item nav-link">Brechas</a>
+                        <a href="/proyectos" class="nav-item nav-link">Proyectos</a>
+                        <a href="/recursos" class="nav-item nav-link">Recursos</a>
+                        <a href="/potencialidades" class="nav-item nav-link">Potencialidades</a>
                     </div>
                 </div>
             </nav>
