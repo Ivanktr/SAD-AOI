@@ -89,8 +89,8 @@
                         <h3>Proyectos para el cierre de brechas y puesta en valor las potencialidades</h3>
                         <p>(Descripción)</p>
                     </div>
-                    <!-- Filtros -->
                     <div class="row" id="proy-card">
+                        <!-- Filtros -->
                         <div class="row pt-3">
                             <div class="col-3">
                                 <div class="row">
@@ -218,7 +218,7 @@
                     <div class="row">
                         <div class="col-md-12 text-center text-md-start mb-3 mb-md-0">
                             &copy; <a class="border-bottom" href="#">CCD</a>, Todos los derechos reservados. 
-							Desarrollado por <a class="border-bottom" href="https://lfvaldivia.ml">LValdivia</a> & <a class="border-bottom" href="https://lfvaldivia.ml">IOscco</a><br><br>
+							Desarrollado por <a class="border-bottom" href="https://lfvaldivia.ml" target="_blank">LValdivia</a> & <a class="border-bottom" href="https://ivanoscco.wixsite.com/my-site" target="_blank">IOscco</a><br><br>
                         </div>
                     </div>
                 </div>
