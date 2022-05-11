@@ -41,7 +41,7 @@
 }
 
 /* Select - Dropdown */
-#select {
+.grid-rsm-9 select {
     background-color: #bad9fd;
     border: #ddebfc 3px solid;
     border-radius: 10px;

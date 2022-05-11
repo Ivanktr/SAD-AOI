@@ -89,7 +89,7 @@
                     <!-- titulo -->
                     <div class="grid-rsm-2">
                         <div class="row text-center">
-                            <h3>IDH distritos del AIO</h3>
+                            <h3 id="titulo">IDH distritos del AIO</h3>
                             <p>(Comparación relativa)</p>
                         </div>
                     </div>
@@ -158,33 +158,33 @@
                     </div>
                     <!-- Filtros -->
                     <div class="grid-rsm-9">
-                        <div class="row">
+                        <div class="row" id="select-location">
                             <label id="label" for="unit">Unidad territorial</label>
-                            <select id="select" name="unit" id="ut">
-                                <option value="">AIO</option>
+                            <select name="location" id="location" class="select">
+                                <option value="-9.898510062899126,-437.1047973632813">AIO</option>
                                 <optgroup label="UGT Huallanca">
-                                    <option value="">Aquia (Bolognesi / Áncash)</option>
+                                    <option value="-10.0742,-77.1464">Aquia (Bolognesi / Áncash)</option>
                                     <option value="">Chiquián (Bolognesi / Áncash)</option>
                                 </optgroup>
                                 <optgroup label="UGT Huarmey">
-                                    <option value="">Huarmey (Huarmey / Áncash)</option>
+                                    <option value="-10.0697,-78.1517">Huarmey (Huarmey / Áncash)</option>
                                 </optgroup>
                                 <optgroup label="UGT Mina / San Marcos">
-                                    <option value="">Chavín de Huántar (Huari / Áncash)</option>
+                                    <option value="-9.5869,-77.1772">Chavín de Huántar (Huari / Áncash)</option>
                                     <option value="">Huachis (Huari / Áncash)</option>
                                 </optgroup>
                                 <optgroup label="UGT Valle Fortaleza">
-                                    <option value="">Antonio Raymondi (Bolognesi / Áncash)</option>
+                                    <option value="-10.1575,-77.4703">Antonio Raymondi (Bolognesi / Áncash)</option>
                                     <option value="">Cajacay (Bolognesi / Áncash)</option>
                                 </optgroup>
                             </select>
                             <label id="label" for="years" class="mt-3">Años</label>
-                            <select id="select" name="years" id="yrs">
-                                <option value="">2021</option>
-                                <option value="">2022</option>
-                                <option value="">2023</option>
-                                <option value="">2024</option>
-                                <option value="">2025</option>
+                            <select name="years" id="yrs">
+                                <option value="2021">2021</option>
+                                <option value="2022">2022</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
                             </select>
                         </div>
                     </div>
@@ -426,21 +426,28 @@
 
     <!-- Script Map -->
     <script type="text/javascript">
-        var map = L.map('map-rsm').setView([-10.67668, -77.8162], 10);
-
+        var map = L.map('map-rsm').setView([-9.898510062899126, -437.1047973632813], 9);
+        
         L.tileLayer('https://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}', {
             maxZoom: 20,
             subdomains:['mt0','mt1','mt2','mt3']
         }).addTo(map);
 
-        L.marker([-10.67668, -77.8162])
+        /* L.marker([-10.67668, -77.8162])
             .addTo(map)
             .bindPopup('<p><b>Distrito: </b> Antonio Raymondi <br/> <b>Monto actualizado (S/ millones): </b>22.61</p>');
         L.marker([-10.1147, -77.3981])
             .addTo(map)
-            .bindPopup('<p><b>Distrito: </b> Chavín de Huántar <br/> <b>Monto actualizado (S/ millones): </b>63.68</p>');
+            .bindPopup('<p><b>Distrito: </b> Chavín de Huántar <br/> <b>Monto actualizado (S/ millones): </b>63.68</p>'); 
 
-        var marker = L.marker([43.26271, -2.92528]).bindPopup(popup).openPopup().addTo(map);
+        var marker = L.marker([43.26271, -2.92528]).bindPopup(popup).openPopup().addTo(map);*/
+
+        document.getElementById('select-location').addEventListener('change', function(e){
+            let coords = e.target.value.split(",");
+            L.marker(coords).addTo(map).bindPopup('<p>Coordenadas:</p>'+coords)
+            map.flyTo(coords, 15);
+            document.getElementById('titulo').textContent='IDH distritos de '+coords;
+        });
     </script>
 </body>
 </html>
