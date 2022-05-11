@@ -442,9 +442,17 @@
 
         var marker = L.marker([43.26271, -2.92528]).bindPopup(popup).openPopup().addTo(map);*/
 
+        var leafletIcon = L.icon ({
+            iconUrl: 'https://pngroyale.com/wp-content/uploads/2021/12/Download-free-Map-Marker-PNG-Pic-PNG.png',
+            /* shadowUrl: '', */
+            iconSize: [20,40],
+            iconAnchor: [22,94],
+            popupAnchor: [-12,-95]
+        })
+        
         document.getElementById('select-location').addEventListener('change', function(e){
             let coords = e.target.value.split(",");
-            L.marker(coords).addTo(map).bindPopup('<p>Coordenadas:</p>'+coords)
+            L.marker(coords,{icon:leafletIcon}).addTo(map).bindPopup('<p>Coordenadas:</p>'+coords);
             map.flyTo(coords, 15);
             document.getElementById('titulo').textContent='IDH distritos de '+coords;
         });
