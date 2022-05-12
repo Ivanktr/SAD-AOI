@@ -26,7 +26,7 @@
     <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
@@ -435,23 +435,40 @@
             subdomains:['mt0','mt1','mt2','mt3']
         }).addTo(map);
 
-        //Diseño del icono
-        var leafletIcon = L.icon ({
-            iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/f/f2/678111-map-marker-512.png',
+        //Diseño del iconos
+        var marker1 = L.icon ({
+            iconUrl: 'https://res.cloudinary.com/lvaldivia/image/upload/v1652367551/ccd/marker1_hdqypn.png',
             /* shadowUrl: '', */
-            iconSize: [30,40],
+            iconSize: [30,30],
+            iconAnchor: [22,94],
+            popupAnchor: [-10,-95]
+        })
+
+        var marker2 = L.icon ({
+            iconUrl: 'https://res.cloudinary.com/lvaldivia/image/upload/v1652367551/ccd/marker2_weqa0n.png',
+            /* shadowUrl: '', */
+            iconSize: [30,30],
+            iconAnchor: [22,94],
+            popupAnchor: [-10,-95]
+        })
+
+        var marker3 = L.icon ({
+            iconUrl: 'https://res.cloudinary.com/lvaldivia/image/upload/v1652367551/ccd/marker1_hdqypn.png',
+            /* shadowUrl: '', */
+            iconSize: [30,30],
+            iconAnchor: [22,94],
+            popupAnchor: [-10,-95]
+        })
+
+        var marker4 = L.icon ({
+            iconUrl: 'https://res.cloudinary.com/lvaldivia/image/upload/v1652367551/ccd/marker1_hdqypn.png',
+            /* shadowUrl: '', */
+            iconSize: [30,30],
             iconAnchor: [22,94],
             popupAnchor: [-10,-95]
         })
         
-        //Configuración popup
-        function popup(feature, layer){
-            if(feature.properties && feature.properties.NOMBDIST){
-                layer.bindPopup("<strong> Distrito: </strong>" + feature.properties.NOMBDIST + "</br>" + "<strong>Provincia: </strong>" + feature.properties.NOMBPROV);
-            }
-        }
-
-        //GeoJson
+        //GeoJson AIO
             var aio = {"type":"FeatureCollection","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[
             {"type":"Feature","properties":{"OBJECTID":1,"IDDIST":"150202","IDDPTO":"15","IDPROV":"1502","NOMBDIST":"PARAMONGA","NOMBPROV":"BARRANCA","NOMBDEP":"LIMA","DCTO":"D.L.","LEY":"21701","FECHA":"23/11/1976","NOM_CAP":"PARAMONGA","SHAPE_LENG":1.2534672504,"SHAPE_AREA":0.03419454666,"SHAPE_LE_1":1.28540844441,"SHAPE_AR_1":0.03421527877,"AREA_MINAM":41490.02},"geometry":{"type":"Polygon","coordinates":[[[-77.69875173689618,-10.322104103245161],[-77.64920436184943,-10.34346747826511],[-77.61942723682132,-10.327825353250587],[-77.59937298680242,-10.38333397830229],[-77.68391998688222,-10.431385978346931],[-77.71131623690813,-10.504931478415383],[-77.74462411193959,-10.532266978440788],[-77.73629661193176,-10.568511353474566],[-77.72608198692214,-10.6233007285256],[-77.78246361197544,-10.643233978544076],[-77.81647848700763,-10.693716853591027],[-77.8862714870736,-10.611919978514722],[-77.83298923702316,-10.567483103473453],[-77.77137648696491,-10.571614603477421],[-77.77244336196587,-10.512478228422333],[-77.79617773698831,-10.483292853395128],[-77.76021161195428,-10.43022122834576],[-77.75704098695124,-10.344216853265666],[-77.69875173689618,-10.322104103245161]]]}},
             {"type":"Feature","properties":{"OBJECTID":2,"IDDIST":"020507","IDDPTO":"02","IDPROV":"0205","NOMBDIST":"COLQUIOC","NOMBPROV":"BOLOGNESI","NOMBDEP":"ANCASH","DCTO":"LEY","LEY":"15409","FECHA":"29/01/1965","NOM_CAP":"CHASQUITAMBO","SHAPE_LENG":0.7924285931,"SHAPE_AREA":0.02520812108,"SHAPE_LE_1":0.80380667548,"SHAPE_AR_1":0.02517629521,"AREA_MINAM":30539.39},"geometry":{"type":"Polygon","coordinates":[[[-77.56770311177252,-10.236150353165256],[-77.52828673673537,-10.262693728189998],[-77.46252148667342,-10.275658353202129],[-77.4814782366913,-10.346228603267855],[-77.52363848673103,-10.38739972830616],[-77.59937298680242,-10.38333397830229],[-77.61942723682132,-10.327825353250587],[-77.64920436184943,-10.34346747826511],[-77.69875173689618,-10.322104103245161],[-77.69642736189395,-10.256850353184392],[-77.67440436187314,-10.20671147813773],[-77.60802536181053,-10.240509728169277],[-77.56770311177252,-10.236150353165256]]]}},
@@ -477,16 +494,27 @@
         //Añadir capa en formato Geojson
         L.geoJson(aio).addTo(map);
 
+        //Configuración popup distrito
+        function popup(feature, layer){
+            if(feature.properties && feature.properties.NOMBDIST){
+                layer.bindPopup("<strong> Distrito: </strong>" + feature.properties.NOMBDIST + "</br>" + "<strong>Provincia: </strong>" + feature.properties.NOMBPROV);
+            }
+        }
+
         var aioJS = L.geoJson(aio,{
             onEachFeature: popup
         }).addTo(map);
 
+        //Markers
+        L.marker([-10.0742,-77.1464],{icon:marker1}).addTo(map).bindPopup('<p>Coordenadas:</p>'+coords);
+        L.marker([-10.0697,-78.1517],{icon:marker2}).addTo(map).bindPopup('<p>Coordenadas:</p>'+coords);
+        L.marker([-9.5869,-77.1772],{icon:marker3}).addTo(map).bindPopup('<p>Coordenadas:</p>'+coords);
+        L.marker([-10.1575,-77.4703],{icon:marker4}).addTo(map).bindPopup('<p>Coordenadas:</p>'+coords);
 
         //Filtro para moverse entre ubicaciones
         document.getElementById('select-location').addEventListener('change', function(e){
             let coords = e.target.value.split(",");
             //Añadir marcador con popup
-            L.marker(coords,{icon:leafletIcon}).addTo(map).bindPopup('<p>Coordenadas:</p>'+coords);
             map.flyTo(coords, 15);
             document.getElementById('titulo').textContent='IDH distritos de '+coords;
         });
