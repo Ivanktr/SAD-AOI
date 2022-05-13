@@ -93,10 +93,10 @@
                             <h3>Recursos</h3>
                             <p>Evolución de recursos para el desarrollo</p>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3 filters">
                             <label id="label" for="unit">Unidad territorial:</label>
-                            <select id="select" name="unit" id="ut">
-                                <option value="">AIO</option>
+                            <select name="unit" id="ut">
+                                <option value="AIO">AIO</option>
                                 <optgroup label="UGT Huallanca">
                                     <option value="">Aquia (Bolognesi / Áncash)</option>
                                     <option value="">Chiquián (Bolognesi / Áncash)</option>

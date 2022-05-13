@@ -88,34 +88,36 @@
         <div class="container-xxl py-3">
             <div class="grid-container">
                 <div class="grid-1"></div>
+                {{-- Brechas y Potencialidades --}}
                 <div class="grid-2">
                     <h3>Brechas y Potencialidades</h3>
                     <p>(Porcentajes)</p>
                 </div>
                 <div class="grid-3"></div>
+                <!-- Filtros -->
                 <div class="grid-4">
-                    <!-- Filtros -->
                     <div class="row">
                         <label id="label2" for="">Unidad Territorial</label>
-                        <select name="" id="select2">
+                        <select name="">
                             <option value="">AIO</option>
                         </select>
                     </div>
                     <div class="row">
                         <label id="label2" for="">Año</label>
-                        <select name="" id="select2">
+                        <select name="">
                             <option value="">2021</option>
                         </select>
                     </div>
                     <div class="row">
                         <label id="label2" for="">Modalidad de inversión</label>
-                        <select name="" id="select2">
+                        <select name="">
                             <option value="">Todas</option>
                         </select>
                     </div>
                 </div>
                 <div class="grid-5">
                 </div>
+                {{-- Nivel de vida digno --}}
                 <div class="grid-6">
                     <div class="row">
                         <div class="c-nvd">
@@ -126,6 +128,7 @@
                         </div>
                     </div>
                 </div>
+                {{-- Servicios Básicos --}}
                 <div class="grid-7">
                     <div class="row">
                         <div class="c-sb">
@@ -136,6 +139,7 @@
                         </div>
                     </div>
                 </div>
+                {{-- Servicios de internet --}}
                 <div class="grid-8">
                     <table>
                         <tr>
@@ -169,6 +173,7 @@
                     </table>
                 </div>
                 <div class="grid-9"></div>
+                {{-- Potencialidades --}}
                 <div class="grid-10">
                     <table class="text-center">
                         <tr>
@@ -192,7 +197,7 @@
                                     <div class="col-3" id="img-pt-c">
                                         <img src="img/cuy.svg" alt="" class="img-pt">
                                     </div>
-                                    <div class="col-9 black-text">
+                                    <div class="col-9">
                                         <p>Cuyes y animales menores</p>
                                     </div>
                                 </div>
@@ -236,6 +241,7 @@
                         </tr>
                     </table>
                 </div>
+                {{-- Ingresos --}}
                 <div class="grid-11">
                     <div class="row">
                         <div class="c-igr">
@@ -246,6 +252,7 @@
                         </div>
                     </div>
                 </div>
+                {{-- Infraestructura --}}
                 <div class="grid-12">
                     <table>
                         <tr>
@@ -262,6 +269,7 @@
                         </tr>
                     </table>
                 </div>
+                {{-- Agropecuaria --}}
                 <div class="grid-13">
                     <table>
                         <tr>
@@ -278,6 +286,7 @@
                         </tr>
                     </table>
                 </div>
+                {{-- Turistica --}}
                 <div class="grid-14">
                     <table>
                         <tr>
@@ -294,6 +303,7 @@
                         </tr>
                     </table>
                 </div>
+                {{-- Académia --}}
                 <div class="grid-15">
                     <table>
                         <tr>
@@ -306,6 +316,7 @@
                         </tr>
                     </table>
                 </div>
+                {{-- Total --}}
                 <div class="grid-16">
                     <div class="row">
                         <div class="c-tot">
@@ -316,6 +327,7 @@
                         </div>
                     </div>
                 </div>
+                {{-- Educación: EBR y años de educación --}}
                 <div class="grid-17">
                     <div class="row">
                         <div class="c-ed">
@@ -326,6 +338,7 @@
                         </div>
                     </div>
                 </div>
+                {{-- Acceso a educación --}}
                 <div class="grid-18">
                     <table>
                         <tr>
@@ -346,6 +359,7 @@
                         </tr>
                     </table>
                 </div>
+                {{-- Inicial --}}
                 <div class="grid-19">
                     <table>
                         <tr>
@@ -362,6 +376,7 @@
                         </tr>
                     </table>
                 </div>
+                {{-- Primaria --}}
                 <div class="grid-20">
                     <table>
                         <tr>
@@ -378,6 +393,7 @@
                         </tr>
                     </table>
                 </div>
+                {{-- Secundaria --}}
                 <div class="grid-21">
                     <table>
                         <tr>
@@ -386,6 +402,7 @@
                         </tr>
                     </table>
                 </div>
+                {{-- Vida larga y saludable --}}
                 <div class="grid-22">
                     <div class="row">
                         <div class="c-vl">
@@ -396,6 +413,7 @@
                         </div>
                     </div>
                 </div>
+                {{-- Esperanza de vida al nacer --}}
                 <div class="grid-23">
                     <table>
                         <tr>
@@ -424,6 +442,7 @@
                         </tr>
                     </table>
                 </div>
+                {{-- 1ra dosis --}}
                 <div class="grid-24">
                     <table>
                         <tr>
@@ -432,6 +451,7 @@
                         </tr>
                     </table>
                 </div>
+                {{-- 2da dosis --}}
                 <div class="grid-25">
                     <table>
                         <tr>
@@ -440,6 +460,7 @@
                         </tr>
                     </table>
                 </div>
+                {{-- 3ra dosis --}}
                 <div class="grid-26">
                     <table>
                         <tr>
@@ -449,6 +470,7 @@
                     </table>
                 </div>
                 <div class="grid-27"></div>
+                {{-- Insitucionalidad --}}
                 <div class="grid-28">
                     <div class="row">
                         <div class="c-in">
@@ -459,6 +481,7 @@
                         </div>
                     </div>
                 </div>
+                {{-- Recurso para el desarrollo --}}
                 <div class="grid-29">
                     <table>
                         <tr>
@@ -483,6 +506,7 @@
                         </tr>
                     </table>
                 </div>
+                {{-- PDLC --}}
                 <div class="grid-30">
                     <table>
                         <tr>
@@ -495,6 +519,7 @@
                         </tr>
                     </table>
                 </div>
+                {{-- POI --}}
                 <div class="grid-31">
                     <table>
                         <tr>
@@ -507,6 +532,7 @@
                         </tr>
                     </table>
                 </div>
+                {{-- PEI --}}
                 <div class="grid-32">
                     <table>
                         <tr>
@@ -519,6 +545,7 @@
                         </tr>
                     </table>
                 </div>
+                {{-- PMI --}}
                 <div class="grid-33">
                     <table>
                         <tr>
@@ -531,6 +558,7 @@
                         </tr>
                     </table>
                 </div>
+                {{-- Salud --}}
                 <div class="grid-34">
                     <table>
                         <tr>

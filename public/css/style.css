@@ -40,21 +40,6 @@
     opacity: 1;
 }
 
-/* Select - Dropdown */
-.grid-rsm-9 select {
-    background-color: #bad9fd;
-    border: #ddebfc 3px solid;
-    border-radius: 10px;
-    padding: 7px 10px 7px;
-}
-
-#select2{
-    background-color: #bad9fd;
-    border-radius: 10px;
-    border: #bad9fd 3px solid;
-    padding: 5px 10px 5px;
-}
-
 #label {
     color: #000;
 }
@@ -105,6 +90,13 @@ ol li .aactiva{
 
 .grid-4 .row{
     padding: 5%;
+}
+
+.grid-4 select{
+    background-color: #fff;
+    border-radius: 5px;
+    border: #ddebfc 3px solid;
+    padding: 5px 10px 5px;
 }
 
 .grid-5{
@@ -841,10 +833,6 @@ ol li .aactiva{
     height: 100px;
 }
 
-.black-text{
-    color: #000;
-}
-
 #th-f{
     width: 100%;
 }
@@ -1011,6 +999,7 @@ h3{
 .grid-rsm-9{
     grid-column: 4 / span 1;
     grid-row: 2 / span 3;
+    height: 80%;
     background-color: #bad9fd81;
     box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
     border-radius: 15px;
@@ -1019,6 +1008,15 @@ h3{
 .grid-rsm-9 .row{
     padding: 7%;
 }
+
+/* Select - Dropdown */
+.grid-rsm-9 select {
+    background-color: #bad9fd;
+    border: #ddebfc 3px solid;
+    border-radius: 10px;
+    padding: 7px 10px 7px;
+}
+/**/
 
 .grid-rsm-10{
     grid-column: 4 / span 1;
@@ -1301,10 +1299,10 @@ h5,h6 {
 }
 
 #map-pt { 
-    position:sticky;width:100%;height: 100%; border-radius: 15px;}
-
-.select{
-    width: 100%;
+    position:sticky;
+    width:100%;
+    height: 100%; 
+    border-radius: 15px;
 }
 
 /* Cards */
@@ -1312,6 +1310,13 @@ h5,h6 {
     border-radius: 15px;
     box-shadow: -1px 1px 7px 0px rgb(0 0 0 / 0.75);
     background-color:#bad9fd85
+}
+
+#proy-card select {
+    background-color: #bad9fd;
+    border: #ddebfc 3px solid;
+    border-radius: 10px;
+    padding: 7px 10px 7px;
 }
 
 #row-map {
@@ -1340,6 +1345,22 @@ h5,h6 {
 
 #card-info small{
     margin-top: -110px;
+}
+
+/** Potencialidades **/
+div .col-4 select {
+    background-color: #fff;
+    border: #ddebfc 3px solid;
+    border-radius: 5px;
+    padding: 7px 10px 7px;
+}
+
+/** Recursos **/
+div .col-3 select {
+    background-color: #fff;
+    border: #ddebfc 3px solid;
+    border-radius: 5px;
+    padding: 7px 10px 7px;
 }
 
 /*** Button ***/

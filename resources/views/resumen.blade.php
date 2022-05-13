@@ -153,7 +153,7 @@
                             <h4>125,103</h4>
                         </div>
                     </div>
-                    <!-- Mapa -->
+                    <!-- Map -->
                     <div class="grid-rsm-8">
                         <div id="map-rsm"></div> 
                     </div>
