@@ -407,7 +407,7 @@
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-        </div>
+    </div>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -424,6 +424,6 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <!-- Script Map -->
-    <script src="{{ asset('js/map-rsm.js')  }}"></script>
+    <script src="js/map-rsm.js"></script>
 </body>
 </html>

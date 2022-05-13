@@ -184,6 +184,6 @@
     <script src="js/main.js"></script>
 
     <!-- Script Map -->
-    <script src="{{ asset('js/map-pt.js')  }}"></script>
+    <script src="js/map-pt.js"></script>
 </body>
 </html>
