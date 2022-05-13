@@ -34,12 +34,6 @@
     <!-- Mapa -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/> 
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
-    <style type="text/css">
-        #map { position:sticky;width:100%;height: 100%; border-radius: 15px;}
-        .select{
-            width: 100%;
-        }
-    </style>
 </head>
 
 <body>
@@ -124,7 +118,7 @@
                             <img src="img/Cadenas.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-7 mb-2">
-                            <div id="map"></div>
+                            <div id="map-pt"></div>
                         </div>
                     </div>
                 </div>
@@ -190,22 +184,6 @@
     <script src="js/main.js"></script>
 
     <!-- Script Map -->
-    <script type="text/javascript">
-        var map = L.map('map').setView([-10.0744, -77.1447], 16);
-
-        L.tileLayer('https://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}', {
-            maxZoom: 20,
-            subdomains:['mt0','mt1','mt2','mt3']
-        }).addTo(map);
-
-        L.marker([-10.0744, -77.1447])
-            .addTo(map)
-            .bindPopup('<p><b>Distrito: </b> Aquia <br/> <b>Monto actualizado (S/ millones): </b>22.61</p>');
-        L.marker([-10.1147, -77.3981])
-            .addTo(map)
-            .bindPopup('<p><b>Distrito: </b> Chavín de Huántar <br/> <b>Monto actualizado (S/ millones): </b>63.68</p>');
-
-        var marker = L.marker([43.26271, -2.92528]).bindPopup(popup).openPopup().addTo(map);
-    </script>
+    <script src="{{ asset('js/map-pt.js')  }}"></script>
 </body>
 </html>

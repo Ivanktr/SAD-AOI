@@ -1,4 +1,4 @@
-var map = L.map('map-rsm');
+var map = L.map('map-pt');
 
 L.tileLayer('https://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}', {
     attribution:'Centro para la Competitividad y el Desarrollo',
@@ -49,41 +49,11 @@ fetch(
     }
 )
 
-//Color por rango
-function getColor(d) {
-    /* return  d > 30000 ? '#FF7F7F':
-            d > 10000 ? '#FAC090':
-            d > 0     ? '#57CB8C':
-                        '#ffffff'; */
-    
-    return  d == "PARARIN"              ? '#FF7F7F': //RED
-            d == "LLACLLIN"             ? '#FF7F7F': //RED
-            d == "MARCA"                ? '#FF7F7F': //RED
-            d == "ANTONIO RAYMONDI"     ? '#FF7F7F': //RED
-            d == "CAJACAY"              ? '#FF7F7F': //RED
-            d == "HUAYLLACAYAN"         ? '#FF7F7F': //RED
-            d == "PAMPAS CHICO"         ? '#FF7F7F': //RED
-            d == "CATAC"                ? '#FF7F7F': //RED
-            d == "AQUIA"                ? '#FF7F7F': //RED
-            d == "HUALLANCA"            ? '#FF7F7F': //RED
-            d == "LLATA"                ? '#FF7F7F': //RED
-            d == "CHAVIN DE HUANTAR"    ? '#FF7F7F': //RED
-            d == "PUÑOS"                ? '#FF7F7F': //RED
-            d == "SAN PEDRO DE CHANA"   ? '#FF7F7F': //RED
-            d == "HUACHIS"              ? '#FF7F7F': //RED
-            d == "HUARMEY"              ? '#FAC090': //ORANGE
-            d == "COLQUIOC"             ? '#FAC090': //ORANGE
-            d == "CHIQUIAN"             ? '#FAC090': //ORANGE
-            d == "SAN MARCOS"           ? '#FAC090': //ORANGE
-            d == "PARAMONGA"            ? '#57CB8C': //GREEN
-                                        '#ffffff';
-}
-
 //Función para mostrar los colores
 function style(feature){ 
     return {
         /* fillColor: getColor(feature.properties.AREA_MINAM), */
-        fillColor: getColor(feature.properties.NOMBDIST),
+        fillColor: "#fff",
         weight: 1,
         opacity: 0.5,
         color: 'white',
