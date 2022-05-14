@@ -84,7 +84,7 @@
         </div>
         <!-- Navbar & Hero End -->
 
-        <!-- Resumen Start -->
+        <!-- Recursos Start -->
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="row g-5 align-items-center">
@@ -93,6 +93,7 @@
                             <h3>Recursos</h3>
                             <p>Evolución de recursos para el desarrollo</p>
                         </div>
+                        {{-- Filtros --}}
                         <div class="col-3 filters">
                             <label id="label" for="unit">Unidad territorial:</label>
                             <select name="unit" id="ut">
@@ -185,32 +186,6 @@
     <script src="js/main.js"></script>
 
     <!-- myChart -->
-    <script>
-        var ctx= document.getElementById("myChart").getContext("2d");
-        var myChart= new Chart(ctx,{
-            type:"line",
-            data:{
-                labels:['1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016','2017','2018','2019','2020','2021','2022','2023','2024','2025','2026','2027','2028','2029','2030','2031','2032','2033','2034','2035','2036'],
-                datasets:[{
-                        label:'Canon y regalías Mineras',
-                        data:[50,20,50,70,50,50,50,51,52,53,125,414,355,259,234,231,290,295,233,233,233,257,469,411,312,504,852,813,760,624,624,620,659,641,601,562,604,593,627,561,513,419]
-                        /* backgroundColor:[
-                            'rgb(66, 134, 244,0.5)',
-                            'rgb(74, 135, 72,0.5)',
-                            'rgb(229, 89, 50,0.5)'
-                        ] */
-                }]
-            },
-            options:{
-                scales:{
-                    yAxes:[{
-                            ticks:{
-                                beginAtZero:false
-                            }
-                    }]
-                }
-            }
-        });
-    </script>
+    <script src="{{ asset('js/chart.js') }}"></script>
 </body>
 </html>
