@@ -67,7 +67,7 @@
                 </div>
             </nav>
 
-            <div class="container-xxl py-5 bg-dark hero-header mb-5">
+            <div class="container-xxl py-1 bg-dark hero-header mb-5">
                 <div class="container text-center my-5 pt-5 pb-4">
                     <h1 class="display-3 text-white mb-3 animated slideInDown">Proyectos</h1>
                     <nav aria-label="breadcrumb">
@@ -83,7 +83,7 @@
 
         <!-- Resumen Start -->
         <div class="container-xxl py-5">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row g-5 align-items-center">
                     <div class="row text-center">
                         <h3>Proyectos para el cierre de brechas y puesta en valor las potencialidades</h3>
@@ -260,8 +260,6 @@
         L.marker([-10.1147, -77.3981])
             .addTo(map)
             .bindPopup('<p><b>Distrito: </b> Chavín de Huántar <br/> <b>Monto actualizado (S/ millones): </b>63.68</p>');
-
-        var marker = L.marker([43.26271, -2.92528]).bindPopup(popup).openPopup().addTo(map);
     </script>
 </body>
 </html>
