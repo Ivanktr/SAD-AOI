@@ -10,7 +10,7 @@
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
     <!-- Favicon -->
-    <link href="img/logo-ccd.png" rel="icon">
+    <link href="https://res.cloudinary.com/lvaldivia/image/upload/v1652719812/ccd/logo-icon_pjbwon.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,7 +51,19 @@
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
                 <a href="/" class="navbar-brand p-0">
-                    <p class=" m-4" id="font-tnr"><img class="img-fluid" src="img/logo-ccd-w.png"> SAD AIO Antamina</p>
+                    {{-- Logo --}}
+                    <div class="row m-4 divlogo">
+                        <div class="col-3 logo">
+                            <img class="img-logo" src="https://res.cloudinary.com/lvaldivia/image/upload/v1652720473/ccd/logo-navbar2_iblh54.png" alt="logoccd">
+                            <p>CENTRO PARA</p>
+                            <p>LA COMPETITIVIDAD</p>
+                            <p>Y EL DESARROLLO</p>
+                        </div>
+                        <div class="col-9">
+                            <p> SAD AIO Antamina</p>
+                        </div>
+                    </div>
+                    {{-- End Logo --}}
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>

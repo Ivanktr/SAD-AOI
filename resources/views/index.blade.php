@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/logo-ccd.png" rel="icon">
+    <link href="https://res.cloudinary.com/lvaldivia/image/upload/v1652719812/ccd/logo-icon_pjbwon.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,7 +46,19 @@
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
                 <a href="/" class="navbar-brand p-0">
-                    <p class="m-4" id="font-tnr"><img class="img-fluid" src="img/logo-ccd-w.png"> SAD AIO Antamina</p>
+                    {{-- Logo --}}
+                    <div class="row m-4 divlogo">
+                        <div class="col-3 logo">
+                            <img class="img-logo" src="https://res.cloudinary.com/lvaldivia/image/upload/v1652720473/ccd/logo-navbar2_iblh54.png" alt="logoccd">
+                            <p>CENTRO PARA</p>
+                            <p>LA COMPETITIVIDAD</p>
+                            <p>Y EL DESARROLLO</p>
+                        </div>
+                        <div class="col-9">
+                            <p> SAD AIO Antamina</p>
+                        </div>
+                    </div>
+                    {{-- End Logo --}}
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -68,7 +80,7 @@
                     <div class="row align-items-center g-5">
                         <div class="col-lg-6 text-center text-lg-start">
                             <p class="display-3 animated slideInLeft text-white" id="home-text">Dales calidad, <br>es el mejor tipo de publicidad</p>
-                            <p class="text-white animated slideInLeft mb-4 pb-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda saepe vero qui totam repellat distinctio autem fuga ipsam architecto cum omnis consectetur, ea mollitia earum, ut vitae quasi illo explicabo.</p>
+                            <p class="text-white animated slideInLeft mb-4 pb-2">El centro para la Competitividad y el Desarrollo (CCD) es una institución cuyo fin es promover el desarrollo sostenible del país en base al principio de la competitividad y de esta forma mejorar la calidad de vida de los ciudadanos.</p>
                             <a href="/resumen" class="link me-3 animated slideInLeft"><strong>SAD AIO Antamina</strong><img src="img/arrow.svg" alt="Resumen" class="img-fluid ms-2"></a>
                         </div>
                         <div class="col-lg-6 text-center text-lg-end overflow-hidden">
