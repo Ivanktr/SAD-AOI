@@ -178,7 +178,7 @@ div .divlogo .col-9 {
     padding: 1%;
 }
 
-.grid-8{
+.grid-8 {
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -834,7 +834,48 @@ div .divlogo .col-9 {
 
 .grid-34 td h6{
     color: #4F81BD;
+} 
+
+/* Brechas */
+.grid-container > * {
+    padding: 5%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
 }
+
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 12% 13% 11% 17% 9% 8% 10% 8% auto;
+    grid-template-rows: 4% 8% 6% 7% 5% 5% 5% 7% auto;
+}
+
+.grid-br-1{
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 1;
+}
+
+.grid-br-2{
+    grid-column: 4 / span 3;
+    grid-row: 1 / span 1;
+}
+
+.grid-br-3{
+    grid-column: 7 / span 3;
+    grid-row: 1 / span 1;
+}
+
+.grid-br-4{
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 3;
+    background-color: red;
+}
+
+/* End Brechas */
 
 #brecha-tot{
     background-color: #008080;

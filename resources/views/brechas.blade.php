@@ -29,7 +29,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
     <!-- Mapa -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/> 
@@ -98,6 +98,7 @@
 
         <!-- Resumen Start -->
         <div class="container-xxl py-3">
+           
             <div class="grid-container">
                 <div class="grid-1"></div>
                 {{-- Brechas y Potencialidades --}}
@@ -106,7 +107,7 @@
                     <p>(Porcentajes)</p>
                 </div>
                 <div class="grid-3"></div>
-                <!-- Filtros -->
+                {{-- Filtros --}}
                 <div class="grid-4">
                     <div class="row">
                         <label id="label2" for="">Unidad Territorial</label>
@@ -579,7 +580,53 @@
                         </tr>
                     </table>
                 </div>
-            </div>
+            </div> 
+            <!-- 
+            <div class="grid-container">
+                <div class="grid-br-1">1</div>
+                <div class="grid-br-2">2</div>
+                <div class="grid-br-3">3</div>
+                <div class="grid-br-4">4</div>
+                <div class="grid-br-5">5</div>
+                <div class="grid-br-6">6</div>
+                <div class="grid-br-7">7</div>
+                <div class="grid-br-8">8</div>
+                <div class="grid-br-9">9</div>
+                <div class="grid-br-10">10</div>
+                <div class="grid-br-11">11</div>
+                <div class="grid-br-12">12</div>
+                <div class="grid-br-13">13</div>
+                <div class="grid-br-14">14</div>
+                <div class="grid-br-15">15</div>
+                <div class="grid-br-16">16</div>
+                <div class="grid-br-17">17</div>
+                <div class="grid-br-18">18</div>
+                <div class="grid-br-19">19</div>
+                <div class="grid-br-20">20</div>
+                <div class="grid-br-21">21</div>
+                <div class="grid-br-22">22</div>
+                <div class="grid-br-23">23</div>
+                <div class="grid-br-24">24</div>
+                <div class="grid-br-25">25</div>
+                <div class="grid-br-26">26</div>
+                <div class="grid-br-27">27</div>
+                <div class="grid-br-28">28</div>
+                <div class="grid-br-29">29</div>
+                <div class="grid-br-30">30</div>
+                <div class="grid-br-31">31</div>
+                <div class="grid-br-32">32</div>
+                <div class="grid-br-33">33</div>
+                <div class="grid-br-34">34</div>
+                <div class="grid-br-35">35</div>
+                <div class="grid-br-36">36</div>
+                <div class="grid-br-37">37</div>
+                <div class="grid-br-38">38</div>
+                <div class="grid-br-39">39</div>
+                <div class="grid-br-40">40</div>
+                <div class="grid-br-41">41</div>
+                <div class="grid-br-42">42</div>
+                <div class="grid-br-43">43</div>
+            </div>-->
         </div>
         <!-- Resumen End -->
 
