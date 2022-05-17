@@ -96,17 +96,393 @@
 
         <!-- Resumen Start -->
         <div class="container-xxl py-3">
-           
             <div class="grid-container">
-                <div class="grid-1"></div>
-                {{-- Brechas y Potencialidades --}}
-                <div class="grid-2">
-                    <h3>Brechas y Potencialidades</h3>
+                <div class="grid-br-1"></div>
+                {{-- titulo --}}
+                <div class="grid-br-2">
+                    <h3>Brechas en el AIO: Por Pilares</h3>
                     <p>(Porcentajes)</p>
                 </div>
-                <div class="grid-3"></div>
+                <div class="grid-br-3"></div>
+                <div class="grid-br-4"></div>
+                {{-- Pilar 1 --}}
+                <div class="grid-br-5">
+                    <div class="row">
+                        <div>
+                            <h5 class="clave">Pilar 1: Institucionalidad Madura</h5>
+                        </div>
+                        <div>
+                            <h4 class="valor">56</h4>
+                        </div>
+                    </div>
+                </div>
+                {{-- Canon minero --}}
+                <div class="grid-br-6">
+                    <table>
+                        <tr>
+                            <th><h6>Canon Minero, Regalía Minera y otros para el desarrollo</h6></th>
+                            <td><h6>83</h6></td>
+                        </tr>
+                        <tr>
+                            <th><h6>Instrumentos de Planeamiento Municipal</h6></th>
+                            <td><h6>16</h6></td>
+                        </tr>
+                        <tr>
+                            <th><h6>Ejecución del gasto de inversión municipal</h6></th>
+                            <td><h6>49</h6></td>
+                        </tr>
+                        <tr>
+                            <th><h6>Calidad del gasto de inversión municipal</h6></th>
+                            <td><h6>57</h6></td>
+                        </tr>
+                        <tr>
+                            <th><h6>Clima social para el desarrollo</h6></th>
+                            <td><h6>52</h6></td>
+                        </tr>
+                    </table>
+                </div>
+                {{-- PDLC --}}
+                <div class="grid-br-7">
+                    <table>
+                        <tr>
+                            <th><h6>PDLC</h6></th>
+                            <td><h6>95</h6></td>
+                        </tr>
+                        <tr>
+                            <th><h6>Saneamiento</h6></th>
+                            <td><h6>51</h6></td>
+                        </tr>
+                    </table>
+                </div>
+                {{-- POI --}}
+                <div class="grid-br-8">
+                    <table>
+                        <tr>
+                            <th><h6>POI</h6></th>
+                            <td><h6>80</h6></td>
+                        </tr>
+                        <tr>
+                            <th><h6>Transporte</h6></th>
+                            <td><h6>46</h6></td>
+                        </tr>
+                    </table>
+                </div>
+                {{-- PEI --}}
+                <div class="grid-br-9">
+                    <table>
+                        <tr>
+                            <th><h6>PEI</h6></th>
+                            <td><h6>85</h6></td>
+                        </tr>
+                        <tr>
+                            <th><h6>Agropecuario</h6></th>
+                            <td><h6>52</h6></td>
+                        </tr>
+                    </table>
+                </div>
+                {{-- PMI --}}
+                <div class="grid-br-10">
+                    <table>
+                        <tr>
+                            <th><h6>PMI</h6></th>
+                            <td><h6>5</h6></td>
+                        </tr>
+                        <tr>
+                            <th><h6>Educación</h6></th>
+                            <td><h6>62</h6></td>
+                        </tr>
+                    </table>
+                </div>
+                {{-- Salud --}}
+                <div class="grid-br-11">
+                    <table>
+                        <tr>
+                            <th><h6>Salud</h6></th>
+                            <td><h6>74</h6></td>
+                        </tr>
+                    </table>
+                </div>
+                {{-- Total --}}
+                <div class="grid-br-12">
+                    <div class="row">
+                        <div>
+                            <h2 class="clave">Total</h2>
+                        </div>
+                        <div>
+                            <h2 class="valor">41</h2>
+                        </div>
+                    </div>
+                </div>
+                {{-- Pilar 2 --}}
+                <div class="grid-br-13">
+                    <div class="row">
+                        <div>
+                            <h5 class="clave">Pilar 2: Oportunidades para las futuras generaciones</h5>
+                        </div>
+                        <div>
+                            <h4 class="valor">34</h4>
+                        </div>
+                    </div>
+                </div>
+                {{-- Educación: EBR y años de educación --}}
+                <div class="grid-br-14">
+                    <div class="row">
+                        <div>
+                            <h5 class="clave">Educación: EBR y años de educación</h5>
+                        </div>
+                        <div>
+                            <h4 class="valor">49</h4>
+                        </div>
+                    </div>
+                </div>
+                {{-- Acceso educación --}}
+                <div class="grid-br-15">
+                    <table>
+                        <tr>
+                            <th><h6>Acceso educación (matriculados)</h6></th>
+                            <td><h6>23</h6></td>
+                        </tr>
+                        <tr>
+                            <th><h6>Nivel de educación completa</h6></th>
+                            <td><h6>39</h6></td>
+                        </tr>
+                        <tr>
+                            <th><h6>Logros de aprendizaje</h6></th>
+                            <td><h6>85</h6></td>
+                        </tr>
+                    </table>
+                </div>
+                {{-- Inicial --}}
+                <div class="grid-br-16">
+                    <table>
+                        <tr>
+                            <th><h6>Inicial</h6></th>
+                            <td><h6>21</h6></td>
+                        </tr>
+                        <tr>
+                            <th><h6>4to primaria</h6></th>
+                            <td><h6>77</h6></td>
+                        </tr>
+                    </table>
+                </div>
+                {{-- Primaria --}}
+                <div class="grid-br-17">
+                    <table>
+                        <tr>
+                            <th><h6>Primaria</h6></th>
+                            <td><h6>20</h6></td>
+                        </tr>
+                        <tr>
+                            <th><h6>2do secundaria</h6></th>
+                            <td><h6>93</h6></td>
+                        </tr>
+                    </table>
+                </div>
+                {{-- Secundaria --}}
+                <div class="grid-br-18">
+                    <table>
+                        <tr>
+                            <th><h6>Secundaria</h6></th>
+                            <td><h6>28</h6></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="grid-br-19"></div>
+                {{-- Potencialidades --}}
+                <div class="grid-br-20">
+                    <table>
+                        <tr>
+                            <th><h6>Potencialidades</h6></th>
+                        </tr>
+                        <tr>
+                            <td><h6>Agropecuaria</h6></td>
+                        </tr>
+                        <tr>
+                            <td><h6>Turismo</h6></td>
+                        </tr>
+                        <tr>
+                            <td><h6>Mineria</h6></td>
+                        </tr>
+                        <tr>
+                            <td><h6>Lácteos</h6></td>
+                        </tr>
+                        <tr>
+                            <td><h6>Cuyes y animales menores</h6></td>
+                        </tr>
+                    </table>
+                </div>
+                {{-- Vida larga y saludable --}}
+                <div class="grid-br-21">
+                    <div class="row">
+                        <div>
+                            <h5 class="clave">Vida larga y saludable</h5>
+                        </div>
+                        <div>
+                            <h4 class="valor">19</h4>
+                        </div>
+                    </div>
+                </div>
+                {{-- Esperanza de vida --}}
+                <div class="grid-br-22">
+                    <table>
+                        <tr>
+                            <th><h6>Esperanza de vida</h6></th>
+                            <td><h6>15</h6></td>
+                        </tr>
+                        <tr>
+                            <th><h6>Anemia</h6></th>
+                            <td><h6>42</h6></td>
+                        </tr>
+                        <tr>
+                            <th><h6>Desnutrición Crónica</h6></th>
+                            <td><h6>19</h6></td>
+                        </tr>
+                        <tr>
+                            <th><h6>Afiliación a seguro de salud</h6></th>
+                            <td><h6>8</h6></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="grid-br-23"></div>
+                {{-- Pilar 3 --}}
+                <div class="grid-br-24">
+                    <div class="row">
+                        <div>
+                            <h5 class="clave">Pilar 3: Infraestructura social y productiva</h5>
+                        </div>
+                        <div>
+                            <h4 class="valor">63</h4>
+                        </div>
+                    </div>
+                </div>
+                {{-- Social --}}
+                <div class="grid-br-25">
+                    <div class="row">
+                        <div>
+                            <h5 class="clave">Social</h5>
+                        </div>
+                        <div>
+                            <h4 class="valor">86</h4>
+                        </div>
+                    </div>
+                </div>
+                {{-- Colegios: Adecuado Estado IIEE --}}
+                <div class="grid-br-26">
+                    <table>
+                        <tr>
+                            <th><h6>Colegios: Adecuado Estado IIEE</h6></th>
+                            <td><h6>91</h6></td>
+                        </tr>
+                        <tr>
+                            <th><h6>Hospitales: Camas por mil hab.</h6></th>
+                            <td><h6>16</h6></td>
+                        </tr>
+                    </table>
+                </div>
+                {{-- M/L Plazo --}}
+                <div class="grid-br-27">
+                    <table>
+                        <tr>
+                            <th><h6>M/L Plazo</h6></th>
+                            <td><h6>81</h6></td>
+                        </tr>
+                    </table>
+                </div>
+                {{-- Retorno seguro --}}
+                <div class="grid-br-28">
+                    <table>
+                        <tr>
+                            <th><h6>Retorno seguro</h6></th>
+                            <td><h6>100</h6></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="grid-br-29"></div>
+                {{-- Servicios Básicos --}}
+                <div class="grid-br-30">
+                    <div class="row">
+                        <div>
+                            <h5 class="clave">Servicios Básicos</h5>
+                        </div>
+                        <div>
+                            <h4 class="valor">53</h4>
+                        </div>
+                    </div>
+                </div>
+                {{-- Servicios de internet (antenas) --}}
+                <div class="grid-br-31">
+                    <table>
+                        <tr>
+                            <th><h6>Servicios de internet (antenas)</h6></th>
+                            <td><h6>92</h6></td>
+                        </tr>
+                        <tr>
+                            <th><h6>Telefonía móvil</h6></th>
+                            <td><h6>22</h6></td>
+                        </tr>
+                        <tr>
+                            <th><h6>Agua</h6></th>
+                            <td><h6>49</h6></td>
+                        </tr>
+                    </table>
+                </div>
+                {{-- Desagüe --}}
+                <div class="grid-br-32">
+                    <table>
+                        <tr>
+                            <th><h6>Desagüe</h6></th>
+                            <td><h6>56</h6></td>
+                        </tr>
+                        <tr>
+                            <th><h6>Electricidad</h6></th>
+                            <td><h6>16</h6></td>
+                        </tr>
+                        <tr>
+                            <th><h6>PTAR</h6></th>
+                            <td><h6>95</h6></td>
+                        </tr>
+                    </table>
+                </div>
+                {{-- Vial pavimentada --}}
+                <div class="grid-br-33">
+                    <table>
+                        <tr>
+                            <th><h6>Vial pavimentada</h6></th>
+                            <td><h6>40</h6></td>
+                        </tr>
+                    </table>
+                </div>
+                {{-- Productiva --}}
+                <div class="grid-br-34">
+                    <div class="row">
+                        <div>
+                            <h5 class="clave">Productiva</h5>
+                        </div>
+                        <div>
+                            <h4 class="valor">51</h4>
+                        </div>
+                    </div>
+                </div>
+                {{-- Agropecuaria (riego tecnificado) --}}
+                <div class="grid-br-35">
+                    <table>
+                        <tr>
+                            <th><h6>Agropecuaria (riego tecnificado)</h6></th>
+                            <td><h6>57</h6></td>
+                        </tr>
+                        <tr>
+                            <th><h6>Turística</h6></th>
+                            <td><h6>26</h6></td>
+                        </tr>
+                        <tr>
+                            <th><h6>Académica</h6></th>
+                            <td><h6>69</h6></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="grid-br-36"></div>
                 {{-- Filtros --}}
-                <div class="grid-4">
+                <div class="grid-br-37">
                     <div class="row">
                         <label id="label2" for="">Unidad Territorial</label>
                         <select name="">
@@ -126,505 +502,86 @@
                         </select>
                     </div>
                 </div>
-                <div class="grid-5">
-                </div>
-                {{-- Nivel de vida digno --}}
-                <div class="grid-6">
+                <div class="grid-br-38"></div>
+                {{-- Pilar 4 --}}
+                <div class="grid-br-39">
                     <div class="row">
-                        <div class="c-nvd">
-                            <h5>Nivel de vida digno</h5>
+                        <div>
+                            <h5 class="clave">Pilar 4: Emprendimiento y desarrollo económico</h5>
                         </div>
-                        <div class="c-nvd-v">
-                            <h4>51</h4>
+                        <div>
+                            <h4 class="valor">49</h4>
                         </div>
                     </div>
                 </div>
-                {{-- Servicios Básicos --}}
-                <div class="grid-7">
+                {{-- Capital Humano --}}
+                <div class="grid-br-40">
                     <div class="row">
-                        <div class="c-sb">
-                            <h5>Servicios Básicos</h5>
+                        <div>
+                            <h5 class="clave">Capital Humano</h5>
                         </div>
-                        <div class="c-sb-v">
-                            <h4>46</h4>
+                        <div>
+                            <h4 class="valor">49</h4>
                         </div>
                     </div>
                 </div>
-                {{-- Servicios de internet --}}
-                <div class="grid-8">
+                {{-- PEA --}}
+                <div class="grid-br-41">
                     <table>
-                        <tr>
-                            <th><h6>Servicios de internet</h6></th>
-                            <td><h6>67</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Telefonía móvil</h6></th>
-                            <td><h6>34</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Agua</h6></th>
-                            <td><h6>43</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Desagüe</h6></th>
-                            <td><h6>46</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Electricidad</h6></th>
-                            <td><h6>19</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>PTAR</h6></th>
-                            <td><h6>80</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Vial pavimentada</h6></th>
-                            <td><h6>36</h6></td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="grid-9"></div>
-                {{-- Potencialidades --}}
-                <div class="grid-10">
-                    <table class="text-center">
-                        <tr>
-                            <th><h5>Potencialidades</h5></th>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="row mb-2" id="bg-pt-a">
-                                    <div class="col-3">
-                                        <img src="img/plant.svg" alt="" class="img-pt">
-                                    </div>
-                                    <div class="col-9">
-                                        <p>Agroindustria</p>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="row  mb-2" id="bg-pt-c">
-                                    <div class="col-3" id="img-pt-c">
-                                        <img src="img/cuy.svg" alt="" class="img-pt">
-                                    </div>
-                                    <div class="col-9">
-                                        <p>Cuyes y animales menores</p>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="row mb-2" id="bg-pt-l">
-                                    <div class="col-3">
-                                        <img src="img/milk.svg" alt="" class="img-pt">
-                                    </div>
-                                    <div class="col-9">
-                                        <p>Lácteos</p>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="row mb-2" id="bg-pt-m">
-                                    <div class="col-3">
-                                        <img src="img/mine.svg" alt="" class="img-pt">
-                                    </div>
-                                    <div class="col-9">
-                                        <p>Mineria</p>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="row mb-2" id="bg-pt-t">
-                                    <div class="col-3">
-                                        <img src="img/tourist.svg" alt="" class="img-pt">
-                                    </div>
-                                    <div class="col-9">
-                                        <p>Turismo</p>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                {{-- Ingresos --}}
-                <div class="grid-11">
-                    <div class="row">
-                        <div class="c-igr">
-                            <h5>Ingresos</h5>
-                        </div>
-                        <div class="c-igr-v">
-                            <h4>56</h4>
-                        </div>
-                    </div>
-                </div>
-                {{-- Infraestructura --}}
-                <div class="grid-12">
-                    <table>
-                        <tr>
-                            <th><h6>Infraestructura</h6></th>
-                            <td><h6>50</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Capital humano</h6></th>
-                            <td><h6>60</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Transferencias monetarias</h6></th>
-                            <td><h6>59</h6></td>
-                        </tr>
-                    </table>
-                </div>
-                {{-- Agropecuaria --}}
-                <div class="grid-13">
-                    <table>
-                        <tr>
-                            <th><h6>Agropecuaria</h6></th>
-                            <td><h6>42</h6></td>
-                        </tr>
                         <tr>
                             <th><h6>PEA</h6></th>
-                            <td><h6>54</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Juntos</h6></th>
-                            <td><h6>65</h6></td>
-                        </tr>
-                    </table>
-                </div>
-                {{-- Turistica --}}
-                <div class="grid-14">
-                    <table>
-                        <tr>
-                            <th><h6>Turistica</h6></th>
-                            <td><h6>21</h6></td>
+                            <td><h6>52</h6></td>
                         </tr>
                         <tr>
                             <th><h6>PEA ocupada</h6></th>
-                            <td><h6>8</h6></td>
+                            <td><h6>7</h6></td>
                         </tr>
                         <tr>
-                            <th><h6>Pensión 65</h6></th>
-                            <td><h6>54</h6></td>
+                            <th><h6>Formación Univ./Técnica</h6></th>
+                            <td><h6>88</h6></td>
                         </tr>
                     </table>
                 </div>
-                {{-- Académia --}}
-                <div class="grid-15">
-                    <table>
-                        <tr>
-                            <th><h6>Académia</h6></th>
-                            <td><h6>68</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Univ./Técnica</h6></th>
-                            <td><h6>85</h6></td>
-                        </tr>
-                    </table>
-                </div>
-                {{-- Total --}}
-                <div class="grid-16">
+                {{-- Pilar 5 --}}
+                <div class="grid-br-42">
                     <div class="row">
-                        <div class="c-tot">
-                            <h2>Total</h2>
+                        <div>
+                            <h5 class="clave">Pilar 5: Emergencias</h5>
                         </div>
-                        <div class="c-tot-v">
-                            <h2>41</h2>
+                        <div>
+                            <h4 class="valor">54</h4>
                         </div>
                     </div>
                 </div>
-                {{-- Educación: EBR y años de educación --}}
-                <div class="grid-17">
+                {{-- Vacuna Covid-19 --}}
+                <div class="grid-br-43">
                     <div class="row">
-                        <div class="c-ed">
-                            <h5>Educación: EBR y años de educación</h5>
+                        <div>
+                            <h5 class="clave">Vacuna Covid-19</h5>
                         </div>
-                        <div class="c-ed-v">
-                            <h4>43</h4>
+                        <div>
+                            <h4 class="valor">54</h4>
                         </div>
                     </div>
-                </div>
-                {{-- Acceso a educación --}}
-                <div class="grid-18">
-                    <table>
-                        <tr>
-                            <th><h6>Acceso a educación</h6></th>
-                            <td><h6>13</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Nivel de educación</h6></th>
-                            <td><h6>26</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Adecuadio estado de IIEE</h6></th>
-                            <td><h6>62</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Logros de aprendizaje</h6></th>
-                            <td><h6>70</h6></td>
-                        </tr>
-                    </table>
-                </div>
-                {{-- Inicial --}}
-                <div class="grid-19">
-                    <table>
-                        <tr>
-                            <th class="tr-separado"><h6>Inicial</h6></th>
-                            <td class="tr-separado"><h6>13</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>M/L Plazo</h6></th>
-                            <td><h6>76</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>4to primaria</h6></th>
-                            <td><h6>63</h6></td>
-                        </tr>
-                    </table>
-                </div>
-                {{-- Primaria --}}
-                <div class="grid-20">
-                    <table>
-                        <tr>
-                            <th class="tr-separado"><h6>Primaria</h6></th>
-                            <td class="tr-separado"><h6>11</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Retorno seguro</h6></th>
-                            <td><h6>49</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>2do secundaria</h6></th>
-                            <td><h6>76</h6></td>
-                        </tr>
-                    </table>
-                </div>
-                {{-- Secundaria --}}
-                <div class="grid-21">
-                    <table>
-                        <tr>
-                            <th><h6>Secundaria</h6></th>
-                            <td><h6>15</h6></td>
-                        </tr>
-                    </table>
-                </div>
-                {{-- Vida larga y saludable --}}
-                <div class="grid-22">
-                    <div class="row">
-                        <div class="c-vl">
-                            <h5>Vida larga y saludable</h5>
-                        </div>
-                        <div class="c-vl-v">
-                            <h4>32</h4>
-                        </div>
-                    </div>
-                </div>
-                {{-- Esperanza de vida al nacer --}}
-                <div class="grid-23">
-                    <table>
-                        <tr>
-                            <th><h6>Esperanza de vida al nacer</h6></th>
-                            <td><h6>9</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Acceso a servicios de salud(camas por 1,000 habitantes)</h6></th>
-                            <td><h6>60</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Anemia(niños menores de 36 meses)</h6></th>
-                            <td><h6>30</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Desnutrición Crónica (niños menores de 5 años)</h6></th>
-                            <td><h6>18</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Afiliación a seguro de salud</h6></th>
-                            <td><h6>17</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Vacunación</h6></th>
-                            <td><h6>29</h6></td>
-                        </tr>
-                    </table>
                 </div>
                 {{-- 1ra dosis --}}
-                <div class="grid-24">
+                <div class="grid-br-44">
                     <table>
                         <tr>
                             <th><h6>1ra dosis</h6></th>
-                            <td><h6>3</h6></td>
+                            <td><h6>33</h6></td>
                         </tr>
-                    </table>
-                </div>
-                {{-- 2da dosis --}}
-                <div class="grid-25">
-                    <table>
                         <tr>
                             <th><h6>2da dosis</h6></th>
-                            <td><h6>4</h6></td>
+                            <td><h6>51</h6></td>
                         </tr>
-                    </table>
-                </div>
-                {{-- 3ra dosis --}}
-                <div class="grid-26">
-                    <table>
                         <tr>
                             <th><h6>3ra dosis</h6></th>
-                            <td><h6>80</h6></td>
+                            <td><h6>77</h6></td>
                         </tr>
                     </table>
                 </div>
-                <div class="grid-27"></div>
-                {{-- Insitucionalidad --}}
-                <div class="grid-28">
-                    <div class="row">
-                        <div class="c-in">
-                            <h5>Insitucionalidad</h5>
-                        </div>
-                        <div class="c-in-v">
-                            <h4>54</h4>
-                        </div>
-                    </div>
-                </div>
-                {{-- Recurso para el desarrollo --}}
-                <div class="grid-29">
-                    <table>
-                        <tr>
-                            <th><h6>Recurso para el desarrollo</h6></th>
-                            <td><h6>83</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Planeamiento</h6></th>
-                            <td><h6>47</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Gestión:ejecución del gasto de inversión municipal</h6></th>
-                            <td><h6>46</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Calidad del gasto de inversión municipal</h6></th>
-                            <td><h6>28</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Clima social para el desarrollo</h6></th>
-                            <td><h6>16</h6></td>
-                        </tr>
-                    </table>
-                </div>
-                {{-- PDLC --}}
-                <div class="grid-30">
-                    <table>
-                        <tr>
-                            <th><h6>PDLC</h6></th>
-                            <td><h6>68</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Saneamiento</h6></th>
-                            <td><h6>23</h6></td>
-                        </tr>
-                    </table>
-                </div>
-                {{-- POI --}}
-                <div class="grid-31">
-                    <table>
-                        <tr>
-                            <th><h6>POI</h6></th>
-                            <td><h6>59</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Transporte</h6></th>
-                            <td><h6>23</h6></td>
-                        </tr>
-                    </table>
-                </div>
-                {{-- PEI --}}
-                <div class="grid-32">
-                    <table>
-                        <tr>
-                            <th><h6>PEI</h6></th>
-                            <td><h6>60</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Agropecuario</h6></th>
-                            <td><h6>29</h6></td>
-                        </tr>
-                    </table>
-                </div>
-                {{-- PMI --}}
-                <div class="grid-33">
-                    <table>
-                        <tr>
-                            <th><h6>PMI</h6></th>
-                            <td><h6>0</h6></td>
-                        </tr>
-                        <tr>
-                            <th><h6>Educación</h6></th>
-                            <td><h6>19</h6></td>
-                        </tr>
-                    </table>
-                </div>
-                {{-- Salud --}}
-                <div class="grid-34">
-                    <table>
-                        <tr>
-                            <th><h6>Salud</h6></th>
-                            <td><h6>45</h6></td>
-                        </tr>
-                    </table>
-                </div>
-            </div> 
-            <!-- 
-            <div class="grid-container">
-                <div class="grid-br-1">1</div>
-                <div class="grid-br-2">2</div>
-                <div class="grid-br-3">3</div>
-                <div class="grid-br-4">4</div>
-                <div class="grid-br-5">5</div>
-                <div class="grid-br-6">6</div>
-                <div class="grid-br-7">7</div>
-                <div class="grid-br-8">8</div>
-                <div class="grid-br-9">9</div>
-                <div class="grid-br-10">10</div>
-                <div class="grid-br-11">11</div>
-                <div class="grid-br-12">12</div>
-                <div class="grid-br-13">13</div>
-                <div class="grid-br-14">14</div>
-                <div class="grid-br-15">15</div>
-                <div class="grid-br-16">16</div>
-                <div class="grid-br-17">17</div>
-                <div class="grid-br-18">18</div>
-                <div class="grid-br-19">19</div>
-                <div class="grid-br-20">20</div>
-                <div class="grid-br-21">21</div>
-                <div class="grid-br-22">22</div>
-                <div class="grid-br-23">23</div>
-                <div class="grid-br-24">24</div>
-                <div class="grid-br-25">25</div>
-                <div class="grid-br-26">26</div>
-                <div class="grid-br-27">27</div>
-                <div class="grid-br-28">28</div>
-                <div class="grid-br-29">29</div>
-                <div class="grid-br-30">30</div>
-                <div class="grid-br-31">31</div>
-                <div class="grid-br-32">32</div>
-                <div class="grid-br-33">33</div>
-                <div class="grid-br-34">34</div>
-                <div class="grid-br-35">35</div>
-                <div class="grid-br-36">36</div>
-                <div class="grid-br-37">37</div>
-                <div class="grid-br-38">38</div>
-                <div class="grid-br-39">39</div>
-                <div class="grid-br-40">40</div>
-                <div class="grid-br-41">41</div>
-                <div class="grid-br-42">42</div>
-                <div class="grid-br-43">43</div>
-            </div>-->
+            </div>
         </div>
         <!-- Resumen End -->
 
