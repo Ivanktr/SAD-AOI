@@ -74,18 +74,16 @@ div .divlogo .col-9 {
 }
 
 /* Brechas */
-
 .grid-container > * {
     padding: 1%;
     text-align: center;
-    /* box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75); */
 }
 
 .grid-container{
     display: grid;
     gap: 10px;
     grid-template-columns: 12% 13% 11% 17% 9% 8% 10% 8% auto;
-    grid-template-rows: auto 16% 12% 14% 10% 10% 10% auto auto;
+    grid-template-rows: auto 16% 10% 14% 8% 10% 10% auto auto;
     padding-bottom: 10%;
 }
 
@@ -162,6 +160,8 @@ div .divlogo .col-9 {
 .grid-br-7{
     grid-column: 5 / span 1;
     grid-row: 2 / span 1;
+    display: flex;
+    align-items: center;
 }
 
 .grid-br-7 table{
@@ -170,13 +170,13 @@ div .divlogo .col-9 {
 
 .grid-br-7 th{
     text-align: left;
-    border-bottom: #fff solid 1px;
+    border-bottom: #fff solid 30px;
     background-color: #8270D6;
 }
 
 .grid-br-7 td{
     width: 20%;
-    border-bottom: #fff solid 1px;
+    border-bottom: #fff solid 30px;
     background-color: #EEECFF;
 }
 
@@ -187,6 +187,8 @@ div .divlogo .col-9 {
 .grid-br-8{
     grid-column: 6 / span 1;
     grid-row: 2 / span 1;
+    display: flex;
+    align-items: center;
 }
 
 .grid-br-8 table{
@@ -195,13 +197,13 @@ div .divlogo .col-9 {
 
 .grid-br-8 th{
     text-align: left;
-    border-bottom: #fff solid 1px;
+    border-bottom: #fff solid 30px;
     background-color: #8270D6;
 }
 
 .grid-br-8 td{
     width: 20%;
-    border-bottom: #fff solid 1px;
+    border-bottom: #fff solid 30px;
     background-color: #EEECFF;
 }
 
@@ -212,6 +214,8 @@ div .divlogo .col-9 {
 .grid-br-9{
     grid-column: 7 / span 1;
     grid-row: 2 / span 1;
+    display: flex;
+    align-items: center;
 }
 
 .grid-br-9 table{
@@ -220,13 +224,13 @@ div .divlogo .col-9 {
 
 .grid-br-9 th{
     text-align: left;
-    border-bottom: #fff solid 1px;
+    border-bottom: #fff solid 30px;
     background-color: #8270D6;
 }
 
 .grid-br-9 td{
     width: 20%;
-    border-bottom: #fff solid 1px;
+    border-bottom: #fff solid 30px;
     background-color: #EEECFF;
 }
 
@@ -237,6 +241,8 @@ div .divlogo .col-9 {
 .grid-br-10{
     grid-column: 8 / span 1;
     grid-row: 2 / span 1;
+    display: flex;
+    align-items: center;
 }
 
 .grid-br-10 table{
@@ -245,13 +251,13 @@ div .divlogo .col-9 {
 
 .grid-br-10 th{
     text-align: left;
-    border-bottom: #fff solid 1px;
+    border-bottom: #fff solid 30px;
     background-color: #8270D6;
 }
 
 .grid-br-10 td{
     width: 20%;
-    border-bottom: #fff solid 1px;
+    border-bottom: #fff solid 30px;
     background-color: #EEECFF;
 }
 
@@ -262,6 +268,8 @@ div .divlogo .col-9 {
 .grid-br-11{
     grid-column: 9 / span 1;
     grid-row: 2 / span 1;
+    display: flex;
+    align-items: center;
 }
 
 .grid-br-11 table{
@@ -269,18 +277,20 @@ div .divlogo .col-9 {
 }
 
 .grid-br-11 th{
+    border-top: #fff solid 30px;
     text-align: left;
     border-bottom: #fff solid 1px;
     background-color: #8270D6;
 }
 
 .grid-br-11 td{
+    border-top: #fff solid 30px;
     width: 20%;
     border-bottom: #fff solid 1px;
     background-color: #EEECFF;
 }
 
-.grid-br-11 td h6 {
+.grid-br-11 td h6{
     color: #8270D6;
 }
 
@@ -387,6 +397,8 @@ div .divlogo .col-9 {
 .grid-br-16{
     grid-column: 5 / span 1;
     grid-row: 3 / span 1;
+    display: flex;
+    align-items: center;
 }
 
 .grid-br-16 table{
@@ -395,13 +407,15 @@ div .divlogo .col-9 {
 
 .grid-br-16 th{
     text-align: left;
-    border-bottom: #fff solid 1px;
+    border-top: #fff solid 40px;
+    border-bottom: #fff solid 40px;
     background-color: #BF340D;
 }
 
 .grid-br-16 td{
     width: 20%;
-    border-bottom: #fff solid 1px;
+    border-top: #fff solid 40px;
+    border-bottom: #fff solid 40px;
     background-color: #FCDCD4;
 }
 
@@ -412,6 +426,8 @@ div .divlogo .col-9 {
 .grid-br-17{
     grid-column: 6 / span 1;
     grid-row: 3 / span 1;
+    display: flex;
+    align-items: center;
 }
 
 .grid-br-17 table{
@@ -420,13 +436,15 @@ div .divlogo .col-9 {
 
 .grid-br-17 th{
     text-align: left;
-    border-bottom: #fff solid 1px;
+    border-top: #fff solid 40px;
+    border-bottom: #fff solid 40px;
     background-color: #BF340D;
 }
 
 .grid-br-17 td{
     width: 20%;
-    border-bottom: #fff solid 1px;
+    border-top: #fff solid 40px;
+    border-bottom: #fff solid 40px;
     background-color: #FCDCD4;
 }
 
@@ -437,6 +455,8 @@ div .divlogo .col-9 {
 .grid-br-18{
     grid-column: 7 / span 1;
     grid-row: 3 / span 1;
+    display: flex;
+    align-items: center;
 }
 
 .grid-br-18 table{
@@ -445,13 +465,13 @@ div .divlogo .col-9 {
 
 .grid-br-18 th{
     text-align: left;
-    border-bottom: #fff solid 1px;
+    border-bottom: #fff solid 70px;
     background-color: #BF340D;
 }
 
 .grid-br-18 td{
     width: 20%;
-    border-bottom: #fff solid 1px;
+    border-bottom: #fff solid 70px;
     background-color: #FCDCD4;
 }
 
@@ -459,14 +479,62 @@ div .divlogo .col-9 {
     color: #BF340D;
 }
 
-.grid-br-19{
-    grid-column: 8 / span 1;
-    grid-row: 3 / span 1;
+.grid-br-20{
+    border-radius: 10px;
+    background-color: #D8E4BE;
+    grid-column: 8 / span 2;
+    grid-row: 3 / span 3;
+    padding: 10%;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
 }
 
-.grid-br-20{
-    grid-column: 9 / span 1;
-    grid-row: 3 / span 4;
+.grid-br-20 h5{
+    background-color: #00AF50;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.grid-br-20 p{
+    color: #fff;
+}
+
+#pot1 {
+    background-color: #008080;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#pot2 {
+    background-color: #F5E132;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#pot2 p{
+    color: #000;
+}
+
+#pot3 {
+    background-color: #BF0000;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#pot5 {
+    background-color: #6FA457;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#pot4 {
+    background-color: #F5895A;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
 }
 
 .grid-br-21{
@@ -520,7 +588,7 @@ div .divlogo .col-9 {
 }
 
 .grid-br-23{
-    grid-column: 5 / span 4;
+    grid-column: 5 / span 3;
     grid-row: 4 / span 1;
 }
 
@@ -649,7 +717,7 @@ div .divlogo .col-9 {
 }
 
 .grid-br-29{
-    grid-column: 7 / span 2;
+    grid-column: 7 / span 1;
     grid-row: 5 / span 1;
 }
 
@@ -812,6 +880,13 @@ div .divlogo .col-9 {
 .grid-br-37{
     grid-column: 8 / span 2;
     grid-row: 7 / span 3;
+}
+
+.grid-br-37 select {
+    background-color: #bad9fd;
+    border: #ddebfc 3px solid;
+    border-radius: 10px;
+    padding: 7px 10px 7px;
 }
 
 .grid-br-38{
@@ -1414,45 +1489,44 @@ h5,h6 {
 }
 
 #bg-pt-a {
+    padding: 3%;
     background-color: #008080;
-    padding: 2%;
-    border-radius: 5px;
+    border-radius: 15px;
     display: flex;
     align-items: center;
 }
 
 #bg-pt-c {
+    padding: 3%;
     background-color: #F5E132;
-    padding: 2%;
-    border-radius: 5px;
+    border-radius: 15px;
     display: flex;
     align-items: center;
 }
 
 #bg-pt-l {
+    padding: 3%;
     background-color: #BF0000;
-    padding: 2%;
-    border-radius: 5px;
+    border-radius: 15px;
     display: flex;
     align-items: center;
 }
 
 #bg-pt-m {
+    padding: 3%;
     background-color: #6FA457;
-    padding: 2%;
-    border-radius: 5px;
+    border-radius: 15px;
     display: flex;
     align-items: center;
 }
 
 #bg-pt-t {
+    padding: 3%;
     background-color: #F5895A;
-    padding: 2%;
-    border-radius: 5px;
+    border-radius: 15px;
     display: flex;
     align-items: center;
 }
-
 
 /* Map */
 #map-rsm {

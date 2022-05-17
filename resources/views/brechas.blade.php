@@ -287,27 +287,71 @@
                         </tr>
                     </table>
                 </div>
-                <div class="grid-br-19"></div>
                 {{-- Potencialidades --}}
                 <div class="grid-br-20">
                     <table>
                         <tr>
-                            <th><h6>Potencialidades</h6></th>
+                            <th><h5>Potencialidades</h5></th>
                         </tr>
                         <tr>
-                            <td><h6>Agropecuaria</h6></td>
+                            <td>
+                                <div class="row mb-2" id="pot1">
+                                    <div class="col-3">
+                                        <img src="img/plant.svg" alt="" class="img-pt">
+                                    </div>
+                                    <div class="col-9">
+                                        <p>Agroindustria</p>
+                                    </div>
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <td><h6>Turismo</h6></td>
+                            <td>
+                                <div class="row  mb-2" id="pot2">
+                                    <div class="col-3" id="img-pt-c">
+                                        <img src="img/cuy.svg" alt="" class="img-pt">
+                                    </div>
+                                    <div class="col-9">
+                                        <p>Cuyes y animales menores</p>
+                                    </div>
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <td><h6>Mineria</h6></td>
+                            <td>
+                                <div class="row mb-2" id="pot3">
+                                    <div class="col-3">
+                                        <img src="img/milk.svg" alt="" class="img-pt">
+                                    </div>
+                                    <div class="col-9">
+                                        <p>Lácteos</p>
+                                    </div>
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <td><h6>Lácteos</h6></td>
+                            <td>
+                                <div class="row mb-2" id="pot4">
+                                    <div class="col-3">
+                                        <img src="img/mine.svg" alt="" class="img-pt">
+                                    </div>
+                                    <div class="col-9">
+                                        <p>Mineria</p>
+                                    </div>
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <td><h6>Cuyes y animales menores</h6></td>
+                            <td>
+                                <div class="row mb-2" id="pot5">
+                                    <div class="col-3">
+                                        <img src="img/tourist.svg" alt="" class="img-pt">
+                                    </div>
+                                    <div class="col-9">
+                                        <p>Turismo</p>
+                                    </div>
+                                </div>
+                            </td>
                         </tr>
                     </table>
                 </div>
